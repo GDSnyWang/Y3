@@ -1,0 +1,70 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "children": [], 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "40b58a5d-b3a9-446c-96cf-b126d5fd517d", 
+                            "ease_type": 0, 
+                            "name": "Resume_1", 
+                            "open_timeline": true, 
+                            "type": 6
+                        }, 
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "40b58a5d-b3a9-446c-96cf-b126d5fd517d", 
+                            "ease_type": 0, 
+                            "name": "Hide_4", 
+                            "open_timeline": true, 
+                            "type": 3
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "button_for_restart_0", 
+                    "sound_id": null, 
+                    "type": 2
+                }
+            ], 
+            "image": 131333, 
+            "name": "button_for_restart", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    1696.0, 
+                    876.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    88.35226694742838, 
+                    81.14478217230902
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    254.0, 
+                    254.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "40b58a5d-b3a9-446c-96cf-b126d5fd517d"
+        }
+    ], 
+    "name": "button_to_restart", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "431b9bdd-4c84-4890-aed4-60c7b50c186d", 
+    "visible": false, 
+    "zorder": 400
+}
