@@ -31,7 +31,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "52e1f842-ffa9-4f86-bec8-af33f3bdc09d"
+                    "uid": "c27c4427-dac2-4f7c-947f-b593fb27999e"
                 }, 
                 {
                     "children": [], 
@@ -61,7 +61,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "93bffeaf-705e-45d9-975e-85e803ab4633"
+                    "uid": "f837b0c1-b324-4007-8f19-9c61860a865f"
                 }, 
                 {
                     "children": [], 
@@ -91,37 +91,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "69f04746-9689-4886-b598-1a3a663356da"
-                }, 
-                {
-                    "children": [], 
-                    "event_list": [], 
-                    "image": 106462, 
-                    "name": "bg_3", 
-                    "opacity": 0.5, 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            844.4444580078125, 
-                            175.5
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            50.00000160618835, 
-                            18.454258971177335
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            800.0, 
-                            15.0
-                        ]
-                    }, 
-                    "type": 4, 
-                    "uid": "ecee146f-66c8-48e2-86fa-1ca91934afab"
+                    "uid": "6a59dec8-d952-4084-9958-b65aa49fc19a"
                 }, 
                 {
                     "adapter_option": [
@@ -161,7 +131,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "84644cd0-713c-42fb-a311-e702cbaf51df"
+                    "uid": "f2d819c0-4db1-4123-8db3-813ec2a0f5c2"
                 }, 
                 {
                     "children": [], 
@@ -191,7 +161,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "a7d2c047-0288-47e0-83e9-54c3f7e0240a"
+                    "uid": "48880453-1495-4bfc-af76-8d0f95017f09"
                 }, 
                 {
                     "adapter_option": [
@@ -206,8 +176,8 @@
                     ], 
                     "children": [], 
                     "event_list": [], 
-                    "image": 106459, 
-                    "name": "blue", 
+                    "image": 106463, 
+                    "name": "green", 
                     "opacity": 0.8, 
                     "pos": {
                         "__tuple__": true, 
@@ -231,47 +201,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "3cd9effe-6fa4-41a2-ba0e-13dfb7c67ace"
-                }, 
-                {
-                    "adapter_option": [
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        1072.5, 
-                        -7.5, 
-                        360.0, 
-                        360.0
-                    ], 
-                    "children": [], 
-                    "event_list": [], 
-                    "image": 106463, 
-                    "name": "green", 
-                    "opacity": 0.8, 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            844.4444580078125, 
-                            175.5
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            50.00000160618835, 
-                            18.454258971177335
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            800.0, 
-                            15.0
-                        ]
-                    }, 
-                    "type": 4, 
-                    "uid": "271624f2-863d-45df-ba64-4978fbd4097e"
+                    "uid": "72d831b7-eebb-452e-8a2a-3820a070c44a"
                 }, 
                 {
                     "alignment": {
@@ -314,7 +244,7 @@
                         ]
                     }, 
                     "type": 3, 
-                    "uid": "b09db4ea-afbc-44a2-8fee-47d7c4891841"
+                    "uid": "f15c82e9-01ac-4e15-9061-6a3e8f5c8063"
                 }, 
                 {
                     "alignment": {
@@ -357,7 +287,7 @@
                         ]
                     }, 
                     "type": 3, 
-                    "uid": "7c55e17c-9b46-4435-9ae2-e62626bf9102"
+                    "uid": "6a3d51e0-ab5c-4974-8997-52c3db619f6b"
                 }, 
                 {
                     "alignment": {
@@ -369,7 +299,7 @@
                     }, 
                     "children": [], 
                     "event_list": [], 
-                    "name": "blue_text", 
+                    "name": "green_text", 
                     "over_pattern": true, 
                     "pos": {
                         "__tuple__": true, 
@@ -395,55 +325,12 @@
                     "text": {
                         "__tuple__": true, 
                         "items": [
-                            "\u4f60\u9009\u62e9\u4e86\u84dd\u8272", 
-                            false
-                        ]
-                    }, 
-                    "type": 3, 
-                    "uid": "2fd8ceee-b4b5-406e-8fa7-ce9da9858ed7"
-                }, 
-                {
-                    "alignment": {
-                        "__tuple__": true, 
-                        "items": [
-                            2, 
-                            8
-                        ]
-                    }, 
-                    "children": [], 
-                    "event_list": [], 
-                    "name": "green_text", 
-                    "over_pattern": true, 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            844.4444580078125, 
-                            145.5
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            50.00000160618835, 
-                            15.299684788070097
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            800.0, 
-                            60.0
-                        ]
-                    }, 
-                    "text": {
-                        "__tuple__": true, 
-                        "items": [
                             "\u4f60\u9009\u62e9\u4e86\u7eff\u8272", 
                             false
                         ]
                     }, 
                     "type": 3, 
-                    "uid": "2a948086-c524-4569-8ce4-f66dd5a47dd5"
+                    "uid": "d5b87dc1-0194-4d0b-8e88-e6bd197ed998"
                 }, 
                 {
                     "children": [], 
@@ -472,7 +359,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "d83e6552-b7f0-4792-b745-bc986abcd96b"
+                    "uid": "13ba55de-d797-4745-8b06-c5ff8f3d1d91"
                 }, 
                 {
                     "children": [], 
@@ -501,7 +388,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "94223d48-8634-4599-8b84-d3b555b7f44e"
+                    "uid": "9029b968-5874-4fb4-ba05-5cd3bba1a1b9"
                 }, 
                 {
                     "children": [], 
@@ -530,36 +417,7 @@
                         ]
                     }, 
                     "type": 4, 
-                    "uid": "613ca8dc-9ce1-42a8-b90f-70793cc35f6b"
-                }, 
-                {
-                    "children": [], 
-                    "event_list": [], 
-                    "image": 131123, 
-                    "name": "sign_3", 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            444.44000244140625, 
-                            190.5
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            26.315526883023345, 
-                            20.031546062730953
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            50.0, 
-                            50.0
-                        ]
-                    }, 
-                    "type": 4, 
-                    "uid": "e77d39f2-b4fb-4e12-a5da-c06a09264bcb"
+                    "uid": "41039ffc-6ed1-4124-b30c-42c2dac79087"
                 }
             ], 
             "event_list": [], 
@@ -580,16 +438,16 @@
                 ]
             }, 
             "type": 4, 
-            "uid": "12c3d06c-896e-48d2-a280-36b30edb7648"
+            "uid": "0ede1892-79cc-44a2-b507-0521d4483c2a"
         }
     ], 
-    "name": "QTE_mian_page", 
+    "name": "QTE_select_page", 
     "opacity": 1.0, 
     "type": 2, 
     "ui_anims": [
-        8
+        12
     ], 
-    "uid": "24b7e32b-a8d5-4e7d-8eeb-2fbf3b3349c6", 
+    "uid": "6787b911-bcb0-4826-ac58-e6df18e7c6cc", 
     "visible": false, 
     "zorder": 400
 }

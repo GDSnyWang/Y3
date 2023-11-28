@@ -115,6 +115,28 @@
                 "store unit": 0
             }
         }, 
+        "438308934": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "success": false
+                }, 
+                "FLOAT": {
+                    "green": 800.0, 
+                    "red": 800.0
+                }, 
+                "STRING": {
+                    "green_message": "", 
+                    "red_message": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "green": 0, 
+                "green_message": 0, 
+                "red": 0, 
+                "red_message": 0, 
+                "success": 0
+            }
+        }, 
         "503767069": {
             "variable_dict": {
                 "ITEM_ENTITY": {
@@ -635,6 +657,24 @@
                 "player": 0
             }
         }, 
+        "1948262471": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "success": false
+                }, 
+                "FLOAT": {
+                    "red": 800.0
+                }, 
+                "STRING": {
+                    "red_message": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "red": 0, 
+                "red_message": 0, 
+                "success": 0
+            }
+        }, 
         "2010271789": {
             "variable_dict": {
                 "FLOAT": {
@@ -706,9 +746,7 @@
             "GLOBAL_BAG_MAX_NUM": 0
         }, 
         "NEW_TIMER": {}, 
-        "PLAYER_GROUP": {
-            "all_characters": []
-        }, 
+        "PLAYER_GROUP": {}, 
         "TABLE": {
             "GAME_STATUS": null, 
             "UI_Manager": null
@@ -737,19 +775,11 @@
                 "GAME_STATUS", 
                 "GAME_STATUS"
             ]
-        }, 
-        {
-            "__tuple__": true, 
-            "items": [
-                "all_characters", 
-                "all_characters"
-            ]
         }
     ], 
     "variable_length_dict": {
         "GAME_STATUS": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
-        "UI_Manager": 0, 
-        "all_characters": 10
+        "UI_Manager": 0
     }
 }

@@ -25,13 +25,13 @@
             [
                 "GAME_SCENE", 
                 "string", 
-                "THE_SPIRIT_HALL", 
+                "THE_SPIRIT_PLACE", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "QTE_STATUS", 
+                "string", 
+                "NOT_AVAILABLE", 
                 null
             ], 
             [

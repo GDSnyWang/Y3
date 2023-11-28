@@ -2,7 +2,11 @@
     "group": [], 
     "key": -1, 
     "key_order": {
+        "FHHKMI22Ee6VLwAVXWe8iQ": 39, 
+        "HVyBLo22Ee6wogAVXWe8id": 40, 
         "KF0OsLKSEe2XPAD-+E6xse": 2, 
+        "WUGy8I28Ee6VmgAVXWe8if": 41, 
+        "cfQtoY28Ee6LhwAVXWe8iT": 42, 
         "k-yOwLG2Ee2YRwD-+E6xsS": 1
     }, 
     "name": "trigger", 
@@ -262,92 +266,8 @@
         "38": {
             "__tuple__": true, 
             "items": [
-                1768452151, 
-                "QTE"
-            ]
-        }, 
-        "39": {
-            "__tuple__": true, 
-            "items": [
-                2127462456, 
-                "start_QTE"
-            ]
-        }, 
-        "40": {
-            "__tuple__": true, 
-            "items": [
-                362111033, 
-                "end_game"
-            ]
-        }, 
-        "41": {
-            "__tuple__": true, 
-            "items": [
-                431956027, 
-                "finish_QTE"
-            ]
-        }, 
-        "42": {
-            "__tuple__": true, 
-            "items": [
-                1555783738, 
-                "end_QTE"
-            ]
-        }, 
-        "43": {
-            "__tuple__": true, 
-            "items": [
-                1492381757, 
-                "operate_game_status"
-            ]
-        }, 
-        "44": {
-            "__tuple__": true, 
-            "items": [
-                1053696060, 
-                "game_initiate"
-            ]
-        }, 
-        "45": {
-            "__tuple__": true, 
-            "items": [
-                1592946750, 
-                "anomaly_pause"
-            ]
-        }, 
-        "46": {
-            "__tuple__": true, 
-            "items": [
-                2064408639, 
-                "function_test"
-            ]
-        }, 
-        "47": {
-            "__tuple__": true, 
-            "items": [
                 1813368896, 
                 "test_func"
-            ]
-        }, 
-        "48": {
-            "__tuple__": true, 
-            "items": [
-                1633087553, 
-                "anomaly_ignore"
-            ]
-        }, 
-        "49": {
-            "__tuple__": true, 
-            "items": [
-                158494786, 
-                "get_game_status"
-            ]
-        }, 
-        "50": {
-            "__tuple__": true, 
-            "items": [
-                1108865091, 
-                "\u83b7\u5f97\u63a7\u4ef6\u5750\u6807"
             ]
         }
     }

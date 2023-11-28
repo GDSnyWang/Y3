@@ -1,0 +1,110 @@
+{
+    "_custom_": true, 
+    "_ref_": 101, 
+    "attach_models": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "base_color_mod": 1, 
+    "base_tint_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255, 
+            0.5
+        ]
+    }, 
+    "cast_shadow": false, 
+    "collision_box": {
+        "__tuple__": true, 
+        "items": [
+            [
+                -5, 
+                5
+            ], 
+            [
+                -5, 
+                -5
+            ], 
+            [
+                5, 
+                -5
+            ], 
+            [
+                5, 
+                5
+            ]
+        ]
+    }, 
+    "collision_height": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "collision_points": {
+        "__tuple__": true, 
+        "items": [
+            [
+                0, 
+                0
+            ], 
+            [
+                0, 
+                0
+            ], 
+            [], 
+            1.0
+        ]
+    }, 
+    "description": 1209273756, 
+    "effect_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "enable_occlusion_perspective": false, 
+    "fresnel_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255, 
+            0.5
+        ]
+    }, 
+    "fresnel_emissive_color_strength": 1, 
+    "fresnel_exp": 10, 
+    "height_num": 0, 
+    "height_offset": 0.0, 
+    "icon": 100000, 
+    "is_x_offset": false, 
+    "is_z_offset": false, 
+    "key": 101, 
+    "kv": {}, 
+    "material_alpha": 0, 
+    "material_change": 0, 
+    "material_color": {
+        "__tuple__": true, 
+        "items": [
+            255, 
+            255, 
+            255
+        ]
+    }, 
+    "material_color_intensity": 0, 
+    "model": 200488, 
+    "model_opacity": 1, 
+    "name": -668237348, 
+    "receive_decal": false, 
+    "scale": 1.0, 
+    "suffix": "", 
+    "tags": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "uid": "101", 
+    "use_base_tint_color": false, 
+    "use_fresnel": 0, 
+    "use_physics": false, 
+    "width_num": 0, 
+    "width_offset": 0.0
+}

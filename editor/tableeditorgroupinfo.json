@@ -12,5 +12,12 @@
    "4ea1e080-c44d-469a-b6ce-d275af9f7480", 
    "NPC_STATUS"
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "8e56bcb7-b6ce-4742-83d0-b1abf13efc73", 
+   "NPC_DIALOGUE"
+  ]
  }
 ]
