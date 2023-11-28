@@ -1,0 +1,99 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "children": [], 
+            "event_list": [], 
+            "image": 106463, 
+            "name": "green_test", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    661.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    61.2037037037037
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1200.0, 
+                    15.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "d7cd6fd3-1853-4108-846d-b4848f75f8be"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "image": 106459, 
+            "name": "blue_test", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    270.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    25.0
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1200.0, 
+                    15.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "b4cc4f9c-c429-48dc-be06-b11a474bcae6"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "image": 106460, 
+            "name": "red_test", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    360.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    33.33333333333333
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1200.0, 
+                    15.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "f54a78b0-547c-4816-9de9-cf3d2742e21a"
+        }
+    ], 
+    "name": "QTE\u7d20\u6750", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "c8f2590f-56aa-49b7-9417-0bd85f87b24d", 
+    "visible": false, 
+    "zorder": 400
+}

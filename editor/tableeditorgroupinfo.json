@@ -5,5 +5,12 @@
    "04104968-7978-440e-bc61-bb9b8118f6ce", 
    "GAME_STATUS"
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "4ea1e080-c44d-469a-b6ce-d275af9f7480", 
+   "NPC_STATUS"
+  ]
  }
 ]

@@ -330,6 +330,20 @@
                 "tips_size": 10
             }
         }, 
+        "1108865091": {
+            "variable_dict": {
+                "FLOAT": {
+                    "a1": 0.0
+                }, 
+                "UI_COMP": {
+                    "aaaa": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "a1": 0, 
+                "aaaa": 0
+            }
+        }, 
         "1270726670": {
             "variable_dict": {
                 "NEW_TIMER": {
@@ -546,31 +560,65 @@
         "1768452151": {
             "variable_dict": {
                 "BOOLEAN": {
-                    "a1": true
+                    "success": false
                 }, 
-                "INTEGER": {
-                    "count": 0, 
-                    "opt_num": 1
+                "FLOAT": {
+                    "blue": 800.0, 
+                    "green": 800.0, 
+                    "red": 800.0
                 }, 
-                "TABLE": {
-                    "opt_message": null
-                }
+                "INTEGER": {}, 
+                "STRING": {
+                    "blue_message": "", 
+                    "green_message": "", 
+                    "red_message": ""
+                }, 
+                "TABLE": {}
             }, 
             "variable_length_dict": {
-                "a1": 0, 
-                "count": 0, 
-                "opt_message": 0, 
-                "opt_num": 0
+                "blue": 0, 
+                "blue_message": 0, 
+                "green": 0, 
+                "green_message": 0, 
+                "red": 0, 
+                "red_message": 0, 
+                "success": 0
             }
         }, 
         "1813368896": {
             "variable_dict": {
-                "BOOLEAN": {
-                    "a1": false
+                "BOOLEAN": {}, 
+                "FLOAT": {
+                    "a1": 50.0, 
+                    "a2": 400.0, 
+                    "a3": 400.0, 
+                    "blue_location": 0.0, 
+                    "blue_long": 0.0, 
+                    "green_location": 0.0, 
+                    "green_long": 0.0, 
+                    "red_location": 0.0, 
+                    "red_long": 0.0
+                }, 
+                "INTEGER": {}, 
+                "UI_COMP": {
+                    "blue_line": "", 
+                    "green_line": "", 
+                    "red_line": ""
                 }
             }, 
             "variable_length_dict": {
-                "a1": 0
+                "a1": 0, 
+                "a2": 0, 
+                "a3": 0, 
+                "blue_line": 0, 
+                "blue_location": 0, 
+                "blue_long": 0, 
+                "green_line": 0, 
+                "green_location": 0, 
+                "green_long": 0, 
+                "red_line": 0, 
+                "red_location": 0, 
+                "red_long": 0
             }
         }, 
         "1872433179": {
