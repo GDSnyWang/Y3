@@ -206,38 +206,8 @@
                 {
                     "children": [], 
                     "event_list": [], 
-                    "image": 106459, 
-                    "name": "blue", 
-                    "opacity": 0.8, 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            844.4444580078125, 
-                            295.5
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            50.00000160618835, 
-                            31.07255570360628
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            800.0, 
-                            15.0
-                        ]
-                    }, 
-                    "type": 4, 
-                    "uid": "cafc47cc-97a0-4a15-a8c8-cc2ca3870f13"
-                }, 
-                {
-                    "children": [], 
-                    "event_list": [], 
                     "image": 106460, 
-                    "name": "red", 
+                    "name": "red_1", 
                     "opacity": 0.8, 
                     "pos": {
                         "__tuple__": true, 
@@ -264,17 +234,11 @@
                     "uid": "a7d2c047-0288-47e0-83e9-54c3f7e0240a"
                 }, 
                 {
-                    "alignment": {
-                        "__tuple__": true, 
-                        "items": [
-                            2, 
-                            8
-                        ]
-                    }, 
                     "children": [], 
+                    "comp_type": "TextLabel", 
                     "event_list": [], 
-                    "name": "yellow_text", 
-                    "over_pattern": true, 
+                    "image": 106460, 
+                    "name": "yellow_1", 
                     "pos": {
                         "__tuple__": true, 
                         "items": [
@@ -296,14 +260,7 @@
                             60.0
                         ]
                     }, 
-                    "text": {
-                        "__tuple__": true, 
-                        "items": [
-                            "\u51c6\u5907\u505a\u51fa\u4f60\u7684\u9009\u62e9\n", 
-                            false
-                        ]
-                    }, 
-                    "type": 3, 
+                    "type": 4, 
                     "uid": "cb7867dc-ef49-40f5-9e6a-4232add3b603"
                 }, 
                 {
@@ -316,7 +273,7 @@
                     }, 
                     "children": [], 
                     "event_list": [], 
-                    "name": "green_text", 
+                    "name": "green_1", 
                     "over_pattern": true, 
                     "pos": {
                         "__tuple__": true, 
@@ -359,50 +316,7 @@
                     }, 
                     "children": [], 
                     "event_list": [], 
-                    "name": "blue_text", 
-                    "over_pattern": true, 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            844.4444580078125, 
-                            265.5
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            50.00000160618835, 
-                            27.917981520499048
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            800.0, 
-                            60.0
-                        ]
-                    }, 
-                    "text": {
-                        "__tuple__": true, 
-                        "items": [
-                            "\u4f60\u9009\u62e9\u4e86\u84dd\u8272", 
-                            false
-                        ]
-                    }, 
-                    "type": 3, 
-                    "uid": "8b12e69a-4a4f-46ac-9f74-ead99a94edce"
-                }, 
-                {
-                    "alignment": {
-                        "__tuple__": true, 
-                        "items": [
-                            2, 
-                            8
-                        ]
-                    }, 
-                    "children": [], 
-                    "event_list": [], 
-                    "name": "red_text", 
+                    "name": "red_2", 
                     "over_pattern": true, 
                     "pos": {
                         "__tuple__": true, 
@@ -436,10 +350,18 @@
                     "uid": "7c55e17c-9b46-4435-9ae2-e62626bf9102"
                 }, 
                 {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
                     "children": [], 
+                    "comp_type": "Image", 
                     "event_list": [], 
-                    "image": 131123, 
-                    "name": "sign_0", 
+                    "name": "sign_4", 
+                    "over_pattern": true, 
                     "pos": {
                         "__tuple__": true, 
                         "items": [
@@ -461,14 +383,29 @@
                             50.0
                         ]
                     }, 
-                    "type": 4, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u4f60\u9009\u62e9\u4e86\u84dd\u8272", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
                     "uid": "71c6f516-64b3-479a-b901-f91a3ff2faca"
                 }, 
                 {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
                     "children": [], 
+                    "comp_type": "Image", 
                     "event_list": [], 
-                    "image": 131123, 
-                    "name": "sign_1", 
+                    "name": "sign_5", 
+                    "over_pattern": true, 
                     "pos": {
                         "__tuple__": true, 
                         "items": [
@@ -490,6 +427,71 @@
                             50.0
                         ]
                     }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u4f60\u9009\u62e9\u4e86\u7ea2\u8272", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "3e8eee55-08e8-4fe8-862e-beb364bccbb6"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 131123, 
+                    "name": "sign_6", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            444.4444580078125, 
+                            195.49996948242188
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            26.31579069945953, 
+                            20.557305217583355
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "e77d39f2-b4fb-4e12-a5da-c06a09264bcb"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 131123, 
+                    "name": "sign_1", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            492.0, 
+                            440.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            29.13157941527645, 
+                            46.267088018906136
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
                     "type": 4, 
                     "uid": "3e8eee55-08e8-4fe8-862e-beb364bccbb6"
                 }, 
@@ -501,15 +503,15 @@
                     "pos": {
                         "__tuple__": true, 
                         "items": [
-                            444.4444885253906, 
-                            315.5
+                            492.0, 
+                            334.0
                         ]
                     }, 
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
-                            26.315792506421428, 
-                            33.175605159011106
+                            29.13157941527645, 
+                            35.12092590526057
                         ]
                     }, 
                     "size": {
@@ -530,15 +532,15 @@
                     "pos": {
                         "__tuple__": true, 
                         "items": [
-                            444.4444580078125, 
-                            195.49996948242188
+                            492.0, 
+                            228.0
                         ]
                     }, 
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
-                            26.31579069945953, 
-                            20.557305217583355
+                            29.13157941527645, 
+                            23.974763791614997
                         ]
                     }, 
                     "size": {
@@ -578,9 +580,9 @@
     "type": 2, 
     "ui_anims": [
         1, 
-        2, 
         4, 
-        6
+        6, 
+        2
     ], 
     "uid": "24b7e32b-a8d5-4e7d-8eeb-2fbf3b3349c6", 
     "visible": false, 
