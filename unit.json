@@ -37,16 +37,16 @@
                         "__tuple__": true, 
                         "items": [
                             [
-                                -22, 
-                                1023221760
+                                -38, 
+                                1884274688
                             ], 
                             [
                                 1, 
-                                3650722304
+                                3624104448
                             ], 
                             [
-                                37, 
-                                218906624
+                                34, 
+                                2027585536
                             ]
                         ]
                     }, 
@@ -60,8 +60,8 @@
                     "yaw": {
                         "__tuple__": true, 
                         "items": [
-                            0, 
-                            0
+                            -4, 
+                            3768333036
                         ]
                     }
                 }
@@ -70,6 +70,219 @@
             "name": "PLAYER", 
             "type": 1, 
             "unit_id": 1
+        }, 
+        "2": {
+            "components": {
+                "__attr": {
+                    "hp_percent": 100, 
+                    "level": 1, 
+                    "mp_percent": 100
+                }, 
+                "ability": {
+                    "1_1": [
+                        201347498, 
+                        1
+                    ]
+                }, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "drop_item": null, 
+                "item": {}, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -25, 
+                                1660280832
+                            ], 
+                            [
+                                1, 
+                                3650723840
+                            ], 
+                            [
+                                1, 
+                                313138176
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            -2, 
+                            1310160631
+                        ]
+                    }
+                }
+            }, 
+            "entity_id": 134252843, 
+            "name": "\u5c06\u519b", 
+            "type": 1, 
+            "unit_id": 2
+        }, 
+        "3": {
+            "components": {
+                "__attr": {
+                    "hp_percent": 100, 
+                    "level": 1, 
+                    "mp_percent": 100
+                }, 
+                "ability": {
+                    "1_1": [
+                        201347498, 
+                        1
+                    ]
+                }, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "drop_item": null, 
+                "item": {}, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -38, 
+                                2602532864
+                            ], 
+                            [
+                                1, 
+                                3650723840
+                            ], 
+                            [
+                                -17, 
+                                508485632
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            6, 
+                            1216271784
+                        ]
+                    }
+                }
+            }, 
+            "entity_id": 134231983, 
+            "name": "\u7075\u754c\u5224\u5b98", 
+            "type": 1, 
+            "unit_id": 3
+        }, 
+        "4": {
+            "components": {
+                "__attr": {
+                    "hp_percent": 100, 
+                    "level": 1, 
+                    "mp_percent": 100
+                }, 
+                "ability": {
+                    "1_1": [
+                        201347498, 
+                        1
+                    ]
+                }, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "drop_item": null, 
+                "item": {}, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -47, 
+                                3809181696
+                            ], 
+                            [
+                                1, 
+                                3650722304
+                            ], 
+                            [
+                                3, 
+                                2841192448
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            1, 
+                            1964989936
+                        ]
+                    }
+                }
+            }, 
+            "entity_id": 134236981, 
+            "name": "\u7d2b\u8863\u5973\u58eb", 
+            "type": 1, 
+            "unit_id": 4
         }
     }
 }

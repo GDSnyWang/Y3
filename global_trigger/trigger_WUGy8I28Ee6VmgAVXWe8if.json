@@ -748,14 +748,14 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                -500.0
+                                -250.0
                             ], 
                             "sub_type": 1
                         }, 
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                -800.0
+                                -400.0
                             ], 
                             "sub_type": 1
                         }
@@ -923,7 +923,7 @@
             "p_trigger_id": null, 
             "trigger_id": 1053696060, 
             "trigger_name": "game_initiate", 
-            "valid": false
+            "valid": true
         }, 
         "1555783738": {
             "action": [

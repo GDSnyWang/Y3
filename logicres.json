@@ -9,7 +9,7 @@
             "far": 1000.0, 
             "focus_max_dist": 400.0, 
             "focus_min_dist": 10.0, 
-            "focus_x": 0.0, 
+            "focus_x": -16.0, 
             "focus_y": 0.0, 
             "focus_z": 0.0, 
             "fov": 35.0, 

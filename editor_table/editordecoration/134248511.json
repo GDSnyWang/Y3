@@ -1,21 +1,18 @@
 {
-    "4": 1.5, 
+    "4": 2.0, 
     "_custom_": true, 
     "_ref_": 134248511, 
     "attach_models": {
         "__tuple__": true, 
         "items": []
     }, 
-    "base_color_mod": 1, 
-    "base_tint_color": {
-        "__tuple__": true, 
-        "items": [
-            255, 
-            255, 
-            255, 
-            0.5
-        ]
-    }, 
+    "base_color_mod": 0, 
+    "base_tint_color": [
+        28, 
+        28, 
+        28, 
+        1.0
+    ], 
     "cast_shadow": true, 
     "collision_box": {
         "__tuple__": true, 
@@ -98,7 +95,7 @@
         "items": []
     }, 
     "uid": "134248511", 
-    "use_base_tint_color": false, 
+    "use_base_tint_color": true, 
     "use_fresnel": 0, 
     "use_physics": false
 }
