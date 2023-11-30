@@ -28,7 +28,7 @@
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
     "attack_type": 10000, 
-    "bar_show_name": 1, 
+    "bar_show_name": 0, 
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
     "base_color_mod": 1, 
@@ -76,7 +76,7 @@
             1
         ]
     }, 
-    "common_atk_type": 0, 
+    "common_atk_type": 999, 
     "content": "strength", 
     "copper coin": 0, 
     "critical_chance": 0.0, 
@@ -160,7 +160,7 @@
     "max_stock": 5, 
     "mini_map_icon": 130497, 
     "mini_map_icon_scale": 1.0, 
-    "model": 207797, 
+    "model": 200376, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 
@@ -175,7 +175,7 @@
     "name": 1939573830, 
     "need_preview_billboard": false, 
     "ori_bits": 0, 
-    "ori_speed": 4.0, 
+    "ori_speed": 3.0, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 

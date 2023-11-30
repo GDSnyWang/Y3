@@ -171,7 +171,7 @@
   "__tuple__": true, 
   "items": [
    2, 
-   "post", 
+   "gate_post_1", 
    16384
   ]
  }, 
@@ -179,7 +179,7 @@
   "__tuple__": true, 
   "items": [
    4, 
-   "post", 
+   "gate_post_2", 
    16384
   ]
  }, 
@@ -187,7 +187,7 @@
   "__tuple__": true, 
   "items": [
    5, 
-   "post", 
+   "gate_post_3", 
    16384
   ]
  }, 
@@ -2730,14 +2730,6 @@
  {
   "__tuple__": true, 
   "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    289, 
    "\u684c\u5b50", 
    16384
@@ -2827,7 +2819,7 @@
   "__tuple__": true, 
   "items": [
    349, 
-   "post", 
+   "judger_post_1", 
    16384
   ]
  }, 
@@ -2835,7 +2827,7 @@
   "__tuple__": true, 
   "items": [
    350, 
-   "post", 
+   "judger_post_3", 
    16384
   ]
  }, 
@@ -2843,7 +2835,7 @@
   "__tuple__": true, 
   "items": [
    351, 
-   "post", 
+   "lady_post_1", 
    16384
   ]
  }, 
@@ -2851,7 +2843,7 @@
   "__tuple__": true, 
   "items": [
    352, 
-   "post", 
+   "lady_post_2", 
    16384
   ]
  }, 
@@ -2859,7 +2851,7 @@
   "__tuple__": true, 
   "items": [
    353, 
-   "post", 
+   "general_post_3", 
    16384
   ]
  }, 
@@ -2867,7 +2859,7 @@
   "__tuple__": true, 
   "items": [
    354, 
-   "post", 
+   "general_post_1", 
    16384
   ]
  }, 
@@ -3349,6 +3341,46 @@
    78, 
    "ghost_fire_green", 
    64
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   355, 
+   "lady_post_3", 
+   16384
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   356, 
+   "judger_post_2", 
+   16384
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   357, 
+   "general_post_2", 
+   16384
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10007, 
+   "watcher_region", 
+   4194304
   ]
  }
 ]

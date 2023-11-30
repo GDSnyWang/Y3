@@ -183,6 +183,18 @@
                 "unit": 0
             }
         }, 
+        "537755722": {
+            "variable_dict": {
+                "STRING": {
+                    "character": "", 
+                    "dialogue": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "character": 0, 
+                "dialogue": 0
+            }
+        }, 
         "568463368": {
             "variable_dict": {
                 "NEW_TIMER": {
@@ -350,20 +362,6 @@
                 "Player": 0, 
                 "pos": 10, 
                 "tips_size": 10
-            }
-        }, 
-        "1108865091": {
-            "variable_dict": {
-                "FLOAT": {
-                    "a1": 0.0
-                }, 
-                "UI_COMP": {
-                    "aaaa": ""
-                }
-            }, 
-            "variable_length_dict": {
-                "a1": 0, 
-                "aaaa": 0
             }
         }, 
         "1270726670": {

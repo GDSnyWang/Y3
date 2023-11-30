@@ -1,0 +1,306 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "children": [
+                {
+                    "background_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            255, 
+                            255, 
+                            255, 
+                            0
+                        ]
+                    }, 
+                    "camera_pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            20.0, 
+                            0.0
+                        ]
+                    }, 
+                    "camera_viewport": 15.0, 
+                    "children": [], 
+                    "event_list": [], 
+                    "model": {
+                        "__tuple__": true, 
+                        "items": [
+                            "editor_model", 
+                            200349
+                        ]
+                    }, 
+                    "name": "character", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            195.0, 
+                            540.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            13.079435773262949, 
+                            97.12230215827337
+                        ]
+                    }, 
+                    "type": 6, 
+                    "uid": "7afa8dc9-1809-4884-b667-ba326306473b"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "MSYH", 
+                            40
+                        ]
+                    }, 
+                    "name": "character_name", 
+                    "over_pattern": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            674.0, 
+                            462.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            45.20789595476527, 
+                            83.09352517985612
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            568.0000305175781, 
+                            100
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "9278fd27-ea93-4bdc-8982-082447f781e9"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            1, 
+                            0
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "MSYH", 
+                            30
+                        ]
+                    }, 
+                    "name": "dialogue", 
+                    "over_pattern": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            745.0, 
+                            278.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            49.970152056825114, 
+                            50.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            1083.0000610351562, 
+                            143.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u8fdd\u53cd\u7ea6\u5b9a\u53bb\u4e86\u90e8\u5206\u4e03\u4e8c\u4e07\u4eba\u53c8\u53bb\u4e86\u6211\u53ef\u4ee5\u8ba9\u53d1\u8868\u5374\u4e3a\u4e86\u5f00\u53d1\u7ecf\u9a8cu\u5947\u602a\u4e86\u5f00\u53d1\u677fv\u8138\u770b\u8d77\u6765\u6b38\u53d1\u79cb\u6708\u65e0\u8fb9\u7236\u4eb2\u51bd\u738b\u5e9c\u5982\u679c", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "1dbf50b5-d093-4521-bb69-0abf0680ce08"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "continue_text_stay", 
+                            "sound_id": null, 
+                            "type": 24
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "continue_text_leave", 
+                            "sound_id": null, 
+                            "type": 25
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "continue_text_click", 
+                            "sound_id": null, 
+                            "type": 2
+                        }
+                    ], 
+                    "name": "continue_text", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            1263.0, 
+                            166.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            84.71449939298003, 
+                            29.856115107913666
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            399.0, 
+                            48.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u6309\u4e0bEnter\u6216\u70b9\u51fb\u4ee5\u7ee7\u7eed  >>>", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "12eddb2a-9a5f-473f-8548-98baa9c56c0b"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "choose_text_stay", 
+                            "sound_id": null, 
+                            "type": 24
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "choose_text_leave", 
+                            "sound_id": null, 
+                            "type": 25
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "choose_text_click", 
+                            "sound_id": null, 
+                            "type": 2
+                        }
+                    ], 
+                    "font_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            217, 
+                            4, 
+                            22, 
+                            255
+                        ]
+                    }, 
+                    "name": "choose_text", 
+                    "over_pattern": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            1225.0, 
+                            166.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            82.1656862679339, 
+                            29.856115107913666
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            415.0, 
+                            48.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u6309\u4e0bEnter\u6216\u70b9\u51fb\u4ee5\u8fdb\u884c\u9009\u62e9  >>>", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "fb9b47ca-0b24-4b1a-b289-d407161723ac", 
+                    "visible": false
+                }
+            ], 
+            "event_list": [], 
+            "image": 130033, 
+            "name": "bg", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    278.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    25.74074074074074
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1490.89, 
+                    556.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "99c8e6d3-6718-4a6e-8035-312f26c0f75a"
+        }
+    ], 
+    "name": "dialogue_page", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "ac8846ee-9bbd-410f-a641-ee06ebf131f6", 
+    "visible": false, 
+    "zorder": 400
+}

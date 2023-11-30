@@ -1,0 +1,74 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "children": [
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "mini_map_1", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            96.0, 
+                            54.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            192.0, 
+                            108.0
+                        ]
+                    }, 
+                    "type": 16, 
+                    "uid": "f63b6f39-28e8-4bb9-be09-f31f26247e5f"
+                }
+            ], 
+            "event_list": [], 
+            "image": 107174, 
+            "name": "image_3", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    93.0, 
+                    53.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    4.84375, 
+                    4.907407407407407
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    192.0, 
+                    108.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "db822e37-7f66-4533-8035-d591c13b5b59"
+        }
+    ], 
+    "name": "minimap", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "1bbed54a-f20b-4bf0-9605-de3868dce1a1", 
+    "visible": false, 
+    "zorder": 300
+}

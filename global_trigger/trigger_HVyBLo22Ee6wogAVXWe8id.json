@@ -696,7 +696,7 @@
             "event": [], 
             "func_category": "t_function", 
             "func_comment": "", 
-            "func_des": "message of option 1:{red_message}; message of option 2:{green_message}", 
+            "func_des": "start select QTE with message of option 1:{red_message}; message of option 2:{green_message}", 
             "func_id": "7ee395408dc211eea48e00155d67bc89", 
             "func_name": "select_QTE", 
             "func_param_list": [
@@ -1688,7 +1688,7 @@
             "event": [], 
             "func_category": "t_function", 
             "func_comment": "", 
-            "func_des": "message of option 1:{red_message}; message of option 2:{blue_message}; message of option 3:{green_message}", 
+            "func_des": "start main QTE with message of option 1:{red_message}; message of option 2:{blue_message}; message of option 3:{green_message}", 
             "func_id": "97685a4f8b7f11eea8af00155d67bc89", 
             "func_name": "main_QTE", 
             "func_param_list": [
@@ -2148,7 +2148,7 @@
             "event": [], 
             "func_category": "t_function", 
             "func_comment": "", 
-            "func_des": "message of option 1:{red_message}", 
+            "func_des": "start single QTE with message of option 1:{red_message}", 
             "func_id": "7f405b408dc211eea14e00155d67bc89", 
             "func_name": "single_QTE", 
             "func_param_list": [
