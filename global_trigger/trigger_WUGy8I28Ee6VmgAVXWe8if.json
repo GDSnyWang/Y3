@@ -661,6 +661,37 @@
                     "enable": true
                 }, 
                 {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "watcher"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "dialogue_1"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "fd4121e18f9411ee901e00155d67bc89"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 513507401000082, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "SET_UI_COMP_VISIBLE", 
                     "args_list": [
                         {
@@ -673,7 +704,7 @@
                         {
                             "arg_type": 100001, 
                             "args_list": [
-                                false
+                                true
                             ], 
                             "sub_type": 1
                         }, 
@@ -1106,6 +1137,40 @@
                     "bp": false, 
                     "call_rt_arg_idxes": [], 
                     "element_id": 1053696060000063, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "GHOSTKING"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        6
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "UNIT_ENTITY_POINT"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1053696060000237, 
                     "enable": true
                 }, 
                 {
@@ -1591,6 +1656,189 @@
                     513507401, 
                     "watcher_dialogue"
                 ]
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1367134282, 
+                                    "player_task"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    965386315, 
+                                    "QTE_status"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    2073038924, 
+                                    "ghost_soul"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1419276365, 
+                                    "release_ghost"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1604812878, 
+                                    "ghostking_soul"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    700801103, 
+                                    "release_ghostking"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    718504016, 
+                                    "ghost_plant"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    400633937, 
+                                    "lady's_bless"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1088667730, 
+                                    "general's_bless"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    627179603, 
+                                    "stolen_stone"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    224862292, 
+                                    "judger's_permission"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    409706581, 
+                                    "general's_permission"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    980562006, 
+                                    "lady's_permission"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1165496407, 
+                                    "judger's_task"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    2047291481, 
+                                    "general's_task"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1476870234, 
+                                    "lady's_task"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1173696600, 
+                                    "belief_situation"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1427443803, 
+                                    "task_situation"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1277120604, 
+                                    "permission_get"
+                                ]
+                            }
+                        ], 
+                        "key": "qoIwAJAxEe6w8wAVXWe8id", 
+                        "name": "hint"
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1228017757, 
+                            "exit"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            507011166, 
+                            "player_page"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            21184607, 
+                            "judger_page"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            273506400, 
+                            "general_page"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1951228001, 
+                            "lady_page"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "dPdf3pBLEe6aKwAVXWe8ib", 
+                "name": "message_page"
             }
         ], 
         "is_sub_folder": false, 

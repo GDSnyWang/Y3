@@ -909,7 +909,59 @@
                         {
                             "children": [
                                 {
-                                    "children": [], 
+                                    "children": [
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number_of_souls", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "8963629d-e9ee-4f90-b1dd-3cd5b4835a64", 
+                                            "visible": false
+                                        }
+                                    ], 
                                     "event_list": [
                                         {
                                             "action_list": [], 
@@ -997,7 +1049,59 @@
                                     "uid": "1677c77b-ea10-4ac3-bd2c-635a9cd3a377"
                                 }, 
                                 {
-                                    "children": [], 
+                                    "children": [
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number_of_plants", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "ee0c3efb-8f58-4107-ba4e-51e38d64dcb2", 
+                                            "visible": false
+                                        }
+                                    ], 
                                     "event_list": [
                                         {
                                             "action_list": [], 
@@ -1593,108 +1697,6 @@
                                 {
                                     "action_list": [], 
                                     "enabled": true, 
-                                    "name": "task_progress_tittle_stay", 
-                                    "sound_id": null, 
-                                    "type": 24
-                                }
-                            ], 
-                            "font": {
-                                "__tuple__": true, 
-                                "items": [
-                                    "MSYH", 
-                                    30
-                                ]
-                            }, 
-                            "name": "task_progress_tittle", 
-                            "over_pattern": true, 
-                            "pos": {
-                                "__tuple__": true, 
-                                "items": [
-                                    446.0, 
-                                    369.0
-                                ]
-                            }, 
-                            "pos_percent": {
-                                "__tuple__": true, 
-                                "items": [
-                                    446.0, 
-                                    369.0
-                                ]
-                            }, 
-                            "size": {
-                                "__tuple__": true, 
-                                "items": [
-                                    187.0, 
-                                    55.0
-                                ]
-                            }, 
-                            "text": {
-                                "__tuple__": true, 
-                                "items": [
-                                    "\u4efb\u52a1\u8fdb\u5ea6\uff1a", 
-                                    false
-                                ]
-                            }, 
-                            "type": 3, 
-                            "uid": "fe13da36-b243-415b-a17c-2160b63fe13b"
-                        }, 
-                        {
-                            "children": [], 
-                            "event_list": [
-                                {
-                                    "action_list": [], 
-                                    "enabled": true, 
-                                    "name": "task_progress_stay", 
-                                    "sound_id": null, 
-                                    "type": 24
-                                }
-                            ], 
-                            "font": {
-                                "__tuple__": true, 
-                                "items": [
-                                    "MSYH", 
-                                    30
-                                ]
-                            }, 
-                            "name": "task_progress", 
-                            "over_pattern": true, 
-                            "pos": {
-                                "__tuple__": true, 
-                                "items": [
-                                    715.0, 
-                                    369.0
-                                ]
-                            }, 
-                            "pos_percent": {
-                                "__tuple__": true, 
-                                "items": [
-                                    715.0, 
-                                    369.0
-                                ]
-                            }, 
-                            "size": {
-                                "__tuple__": true, 
-                                "items": [
-                                    405.0, 
-                                    55.0
-                                ]
-                            }, 
-                            "text": {
-                                "__tuple__": true, 
-                                "items": [
-                                    "", 
-                                    false
-                                ]
-                            }, 
-                            "type": 3, 
-                            "uid": "8d7ec0f1-2e12-47df-a0b9-74975719ddae"
-                        }, 
-                        {
-                            "children": [], 
-                            "event_list": [
-                                {
-                                    "action_list": [], 
-                                    "enabled": true, 
                                     "name": "belief_value_tittle_stay", 
                                     "sound_id": null, 
                                     "type": 24
@@ -1712,14 +1714,14 @@
                             "pos": {
                                 "__tuple__": true, 
                                 "items": [
-                                    28.0, 
+                                    27.0, 
                                     266.0
                                 ]
                             }, 
                             "pos_percent": {
                                 "__tuple__": true, 
                                 "items": [
-                                    28.000000000000004, 
+                                    27.0, 
                                     266.0
                                 ]
                             }, 
@@ -1797,108 +1799,6 @@
                                 {
                                     "action_list": [], 
                                     "enabled": true, 
-                                    "name": "total_task_tittle_stay", 
-                                    "sound_id": null, 
-                                    "type": 24
-                                }
-                            ], 
-                            "font": {
-                                "__tuple__": true, 
-                                "items": [
-                                    "MSYH", 
-                                    30
-                                ]
-                            }, 
-                            "name": "total_task_tittle", 
-                            "over_pattern": true, 
-                            "pos": {
-                                "__tuple__": true, 
-                                "items": [
-                                    55.0, 
-                                    167.0
-                                ]
-                            }, 
-                            "pos_percent": {
-                                "__tuple__": true, 
-                                "items": [
-                                    55.00000000000001, 
-                                    167.0
-                                ]
-                            }, 
-                            "size": {
-                                "__tuple__": true, 
-                                "items": [
-                                    290.0, 
-                                    58.0
-                                ]
-                            }, 
-                            "text": {
-                                "__tuple__": true, 
-                                "items": [
-                                    "\u603b\u4f53\u4efb\u52a1\u8fdb\u5ea6\uff1a", 
-                                    false
-                                ]
-                            }, 
-                            "type": 3, 
-                            "uid": "dc3ffea4-39ba-4be8-80fd-5f02fb9cfc7f"
-                        }, 
-                        {
-                            "children": [], 
-                            "event_list": [
-                                {
-                                    "action_list": [], 
-                                    "enabled": true, 
-                                    "name": "total_task_stay", 
-                                    "sound_id": null, 
-                                    "type": 24
-                                }
-                            ], 
-                            "font": {
-                                "__tuple__": true, 
-                                "items": [
-                                    "MSYH", 
-                                    30
-                                ]
-                            }, 
-                            "name": "total_task", 
-                            "over_pattern": true, 
-                            "pos": {
-                                "__tuple__": true, 
-                                "items": [
-                                    198.5, 
-                                    167.0
-                                ]
-                            }, 
-                            "pos_percent": {
-                                "__tuple__": true, 
-                                "items": [
-                                    198.5, 
-                                    167.0
-                                ]
-                            }, 
-                            "size": {
-                                "__tuple__": true, 
-                                "items": [
-                                    132.0, 
-                                    54.0
-                                ]
-                            }, 
-                            "text": {
-                                "__tuple__": true, 
-                                "items": [
-                                    "", 
-                                    false
-                                ]
-                            }, 
-                            "type": 3, 
-                            "uid": "9387e9e4-4944-4143-9a7c-d79b59e6978f"
-                        }, 
-                        {
-                            "children": [], 
-                            "event_list": [
-                                {
-                                    "action_list": [], 
-                                    "enabled": true, 
                                     "name": "total_task_progress_stay", 
                                     "sound_id": null, 
                                     "type": 24
@@ -1916,15 +1816,15 @@
                             "pos": {
                                 "__tuple__": true, 
                                 "items": [
-                                    477.0, 
-                                    167.0
+                                    34.0, 
+                                    169.0
                                 ]
                             }, 
                             "pos_percent": {
                                 "__tuple__": true, 
                                 "items": [
-                                    476.99999999999994, 
-                                    167.0
+                                    34.0, 
+                                    169.0
                                 ]
                             }, 
                             "size": {
@@ -2062,15 +1962,15 @@
                             "pos": {
                                 "__tuple__": true, 
                                 "items": [
-                                    612.0, 
-                                    166.0
+                                    175.0, 
+                                    168.0
                                 ]
                             }, 
                             "pos_percent": {
                                 "__tuple__": true, 
                                 "items": [
-                                    612.0, 
-                                    166.0
+                                    175.0, 
+                                    168.0
                                 ]
                             }, 
                             "size": {
@@ -2099,15 +1999,15 @@
                             "pos": {
                                 "__tuple__": true, 
                                 "items": [
-                                    682.0, 
-                                    166.0
+                                    255.0, 
+                                    168.0
                                 ]
                             }, 
                             "pos_percent": {
                                 "__tuple__": true, 
                                 "items": [
-                                    682.0, 
-                                    166.0
+                                    254.99999999999997, 
+                                    168.0
                                 ]
                             }, 
                             "size": {
@@ -2136,15 +2036,15 @@
                             "pos": {
                                 "__tuple__": true, 
                                 "items": [
-                                    752.0, 
-                                    166.0
+                                    335.0, 
+                                    168.0
                                 ]
                             }, 
                             "pos_percent": {
                                 "__tuple__": true, 
                                 "items": [
-                                    752.0, 
-                                    166.0
+                                    335.0, 
+                                    168.0
                                 ]
                             }, 
                             "size": {

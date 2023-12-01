@@ -745,6 +745,16 @@
         }, 
         "NEW_TIMER": {}, 
         "PLAYER_GROUP": {}, 
+        "POINT": {
+            "GHOSTKING": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }
+        }, 
         "TABLE": {
             "GAME_STATUS": null, 
             "UI_Manager": null
@@ -773,10 +783,18 @@
                 "GAME_STATUS", 
                 "GAME_STATUS"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "GHOSTKING", 
+                "GHOSTKING"
+            ]
         }
     ], 
     "variable_length_dict": {
         "GAME_STATUS": 0, 
+        "GHOSTKING": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "UI_Manager": 0
     }
