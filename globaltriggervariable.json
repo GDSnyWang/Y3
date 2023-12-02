@@ -68,7 +68,7 @@
         "158494786": {
             "variable_dict": {
                 "STRING": {
-                    "key": "GAME_STAGE", 
+                    "key": "", 
                     "temp": ""
                 }
             }, 
@@ -185,14 +185,24 @@
         }, 
         "537755722": {
             "variable_dict": {
+                "BOOLEAN": {
+                    "ignore_distance": false
+                }, 
                 "STRING": {
-                    "character": "", 
                     "dialogue": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "character": 0
+                }, 
+                "UNIT_WRITE_ATTRIBUTE": {
+                    "\u554a": ""
                 }
             }, 
             "variable_length_dict": {
                 "character": 0, 
-                "dialogue": 0
+                "dialogue": 0, 
+                "ignore_distance": 0, 
+                "\u554a": 0
             }
         }, 
         "568463368": {
@@ -336,6 +346,23 @@
             }, 
             "variable_length_dict": {
                 "dis": 0
+            }
+        }, 
+        "916861028": {
+            "variable_dict": {
+                "NEW_TIMER": {}, 
+                "STRING": {
+                    "option_1": "", 
+                    "option_2": "", 
+                    "option_3": "", 
+                    "type": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "option_1": 0, 
+                "option_2": 0, 
+                "option_3": 0, 
+                "type": 0
             }
         }, 
         "990195764": {

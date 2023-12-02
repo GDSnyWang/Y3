@@ -3382,5 +3382,61 @@
    "\u521d\u59cb\u955c\u5934", 
    32768
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10008, 
+   "lady_region", 
+   4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10009, 
+   "general_region", 
+   4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10010, 
+   "judger_region", 
+   4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10012, 
+   "ghostking_region", 
+   4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10013, 
+   "\u805a\u5149\u706f", 
+   262144
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10015, 
+   "camp_region", 
+   4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10016, 
+   "plant_region", 
+   2048
+  ]
  }
 ]

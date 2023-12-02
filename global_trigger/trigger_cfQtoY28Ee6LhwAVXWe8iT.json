@@ -223,20 +223,12 @@
                     "args_list": [
                         {
                             "arg_type": 100003, 
-                            "args_list": [], 
+                            "args_list": [
+                                null
+                            ], 
                             "call_rt_index": 0, 
-                            "op_arg": [
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "ANOMALY"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "op_arg_enable": [
-                                true
-                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
                             "sub_type": "b8fa60008c5111ee843100155d67bc89"
                         }, 
                         {
@@ -286,7 +278,7 @@
             "p_trigger_id": null, 
             "trigger_id": 1633087553, 
             "trigger_name": "anomaly_ignore", 
-            "valid": true
+            "valid": false
         }, 
         "2064408639": {
             "action": [
@@ -633,6 +625,42 @@
                     364822600, 
                     "UI_event_test"
                 ]
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2127462456, 
+                            "start_main_QTE"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            353079364, 
+                            "start_select_QTE"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            420253765, 
+                            "start_single_QTE"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1555783738, 
+                            "end_QTE"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "OlpBbpDoEe6U-AAVXWe8ib", 
+                "name": "QTE"
             }
         ], 
         "is_sub_folder": false, 

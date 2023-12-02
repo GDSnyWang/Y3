@@ -1,5 +1,6 @@
 {
     "column_width": {
+        "2": 169, 
         "3": 170
     }, 
     "table_data": {
@@ -35,9 +36,15 @@
                 null
             ], 
             [
-                "WATCHER_MEET", 
-                "bool", 
-                "false", 
+                "QTE_TYPE", 
+                "string", 
+                "UNKNOWN", 
+                null
+            ], 
+            [
+                "DIALOGUE_STATUS", 
+                "string", 
+                "NOT_AVAILABLE", 
                 null
             ], 
             [
@@ -48,6 +55,12 @@
             ], 
             [
                 null, 
+                null, 
+                null, 
+                null
+            ], 
+            [
+                "", 
                 null, 
                 null, 
                 null

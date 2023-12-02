@@ -151,7 +151,19 @@
     "keep_dead_body_time": 2.0, 
     "keep_target": true, 
     "key": 134243763, 
-    "kv": {}, 
+    "kv": {
+        "meet": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 4, 
+            "key": "meet", 
+            "prop_cls": "PBool", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 3, 
+            "value": false
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 

@@ -16,9 +16,9 @@
                     "camera_pos": {
                         "__tuple__": true, 
                         "items": [
-                            0.0, 
+                            -4.0, 
                             5.0, 
-                            6.0
+                            5.0
                         ]
                     }, 
                     "camera_viewport": 9.0, 
@@ -27,16 +27,16 @@
                     "focus_pos": {
                         "__tuple__": true, 
                         "items": [
-                            -0.03, 
-                            2.2, 
-                            0.0
+                            0.0, 
+                            1.7, 
+                            0.1
                         ]
                     }, 
                     "model": {
                         "__tuple__": true, 
                         "items": [
                             "editor_model", 
-                            200349
+                            101281
                         ]
                     }, 
                     "name": "character", 

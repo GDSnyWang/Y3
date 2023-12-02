@@ -33,5 +33,12 @@
    "bedc6c99-39b9-44c7-a296-088adbbdc822", 
    "PLAYER_STATUS"
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   "31609030-c441-4463-96f1-963db6332b89", 
+   "QTE_CHOICE"
+  ]
  }
 ]

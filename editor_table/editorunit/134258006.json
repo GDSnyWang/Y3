@@ -147,7 +147,30 @@
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 134258006, 
-    "kv": {}, 
+    "kv": {
+        "dialogue_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "dialogue_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "\u6b22\u8fce\u6765\u5230\u7075\u754c\u3002\\n\u7b49\u4e00\u7b49\uff0c\u4f60\u5e76\u6ca1\u6709\u6b7b\u3002"
+        }, 
+        "meet": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 4, 
+            "key": "meet", 
+            "prop_cls": "PBool", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 3, 
+            "value": false
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 
