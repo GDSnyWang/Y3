@@ -3378,14 +3378,6 @@
  {
   "__tuple__": true, 
   "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    10008, 
    "lady_region", 
    4096
@@ -3437,6 +3429,22 @@
    10016, 
    "plant_region", 
    2048
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10017, 
+   "escape_region", 
+   4096
   ]
  }
 ]

@@ -91,6 +91,24 @@
                 "unit_group": 0
             }
         }, 
+        "273731689": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "have_next": false
+                }, 
+                "INTEGER": {
+                    "temp_n": 0
+                }, 
+                "STRING": {
+                    "temp_t": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "have_next": 0, 
+                "temp_n": 0, 
+                "temp_t": 0
+            }
+        }, 
         "333193219": {
             "variable_dict": {
                 "BOOLEAN": {
@@ -221,6 +239,20 @@
                 "player": 0, 
                 "t": 0, 
                 "unit": 0
+            }
+        }, 
+        "659791978": {
+            "variable_dict": {
+                "INTEGER": {
+                    "temp_n": 0
+                }, 
+                "STRING": {
+                    "temp_t": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "temp_n": 0, 
+                "temp_t": 0
             }
         }, 
         "671428624": {
@@ -365,6 +397,24 @@
                 "type": 0
             }
         }, 
+        "985944174": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "have_next": false
+                }, 
+                "INTEGER": {
+                    "temp_n": 0
+                }, 
+                "STRING": {
+                    "temp_t": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "have_next": 0, 
+                "temp_n": 0, 
+                "temp_t": 0
+            }
+        }, 
         "990195764": {
             "variable_dict": {
                 "INTEGER": {
@@ -499,6 +549,24 @@
                 "unit": 0
             }
         }, 
+        "1473736812": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "have_next": false
+                }, 
+                "INTEGER": {
+                    "temp_n": 0
+                }, 
+                "STRING": {
+                    "temp_t": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "have_next": 0, 
+                "temp_n": 0, 
+                "temp_t": 0
+            }
+        }, 
         "1492381757": {
             "variable_dict": {
                 "STRING": {
@@ -604,6 +672,17 @@
                 "dis": 0
             }
         }, 
+        "1737433192": {
+            "variable_dict": {
+                "STRING": {
+                    "a1": ""
+                }, 
+                "UNIT_ENTITY": {}
+            }, 
+            "variable_length_dict": {
+                "a1": 10
+            }
+        }, 
         "1768452151": {
             "variable_dict": {
                 "BOOLEAN": {
@@ -680,6 +759,28 @@
             "variable_length_dict": {
                 "item": 0, 
                 "player": 0
+            }
+        }, 
+        "1901342827": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "have_next": false
+                }, 
+                "INTEGER": {
+                    "temp_n": 0
+                }, 
+                "STRING": {
+                    "temp_t": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "ghost": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "ghost": 0, 
+                "have_next": 0, 
+                "temp_n": 0, 
+                "temp_t": 0
             }
         }, 
         "1948262471": {

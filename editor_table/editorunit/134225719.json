@@ -151,7 +151,41 @@
     "keep_dead_body_time": 2.0, 
     "keep_target": true, 
     "key": 134225719, 
-    "kv": {}, 
+    "kv": {
+        "common_ghost": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "common_ghost", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "\u55ef...\\n\u545c\u545c..."
+        }, 
+        "sad_ghost": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "sad_ghost", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 0, 
+            "value": "sad_ghost"
+        }, 
+        "thief_ghost": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "thief_ghost", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 0, 
+            "value": "thief_ghost"
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 
@@ -160,7 +194,7 @@
     "model": 202150, 
     "model_height": 0.0, 
     "model_opacity": 1, 
-    "move_channel": 0, 
+    "move_channel": 1, 
     "move_limitation": 1, 
     "move_type": 40, 
     "mp_color": "Blue", 
@@ -172,7 +206,7 @@
     "name": 856299817, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
-    "ori_speed": 1.2, 
+    "ori_speed": 4.0, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 

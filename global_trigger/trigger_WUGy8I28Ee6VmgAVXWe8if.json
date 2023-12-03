@@ -714,7 +714,7 @@
                         "__tuple__": true, 
                         "items": [
                             547561570, 
-                            "sad_ghost"
+                            "sad_ghost_first_meet"
                         ]
                     }, 
                     {
@@ -729,6 +729,20 @@
                         "items": [
                             916861028, 
                             "continue_conversaton"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1731407974, 
+                            "judger_first_meet"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            775110759, 
+                            "general_first_meet"
                         ]
                     }
                 ], 

@@ -151,6 +151,17 @@
     "keep_target": true, 
     "key": 134236981, 
     "kv": {
+        "first_meet": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "first_meet", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 1, 
+            "type": 0, 
+            "value": "\u6b22\u8fce\u6765\u5230\u4e0a\u5c42\u7075\u754c\uff0c\u6211\u662f\u7d2b\u8863\u5973\u58eb\u3002"
+        }, 
         "meet": {
             "annotation": "", 
             "desc": "", 

@@ -148,16 +148,38 @@
     "keep_target": true, 
     "key": 134258006, 
     "kv": {
-        "dialogue_1": {
+        "common_chat": {
             "annotation": "", 
             "desc": "", 
             "etype": 0, 
-            "key": "dialogue_1", 
+            "key": "common_chat", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 0, 
+            "value": "hello"
+        }, 
+        "first_meet_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "first_meet_1", 
             "prop_cls": "PText", 
             "remark": "", 
             "sort": 0, 
             "type": 0, 
             "value": "\u6b22\u8fce\u6765\u5230\u7075\u754c\u3002\\n\u7b49\u4e00\u7b49\uff0c\u4f60\u5e76\u6ca1\u6709\u6b7b\u3002"
+        }, 
+        "first_meet_2": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "first_meet_2", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 0, 
+            "value": "\u53bb\u627e\u4e09\u4f4d\u770b\u5b88"
         }, 
         "meet": {
             "annotation": "", 

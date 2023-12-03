@@ -37,6 +37,56 @@
                             537755722, 
                             "set_dialogue"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1737433192, 
+                            "dialogue_control"
+                        ]
+                    }, 
+                    {
+                        "_function_": true, 
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    273731689, 
+                                    "sad_ghost"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    659791978, 
+                                    "watcher"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1901342827, 
+                                    "ghost"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1473736812, 
+                                    "thief_ghost"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    985944174, 
+                                    "ghostking"
+                                ]
+                            }
+                        ], 
+                        "key": "c-IfYZHAEe6EiwAVXWe8iW", 
+                        "name": "sub_control"
                     }
                 ], 
                 "is_sub_folder": true, 

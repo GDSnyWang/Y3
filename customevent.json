@@ -1,5 +1,7 @@
 {
     "conf": {
+        "1184246145": [], 
+        "1927188252": [], 
         "2055225221": [
             [
                 "type", 
@@ -13,6 +15,20 @@
             "items": [
                 2055225221, 
                 "anomly_happens"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1184246145, 
+                "get_ghost_soul"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1927188252, 
+                "get_spirit_stone"
             ]
         }
     ]
