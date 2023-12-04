@@ -140,19 +140,33 @@
                 }, 
                 "FLOAT": {
                     "green": 800.0, 
-                    "red": 800.0
+                    "green_other": 0.0, 
+                    "green_time": 0.0, 
+                    "red": 800.0, 
+                    "red_other": 0.0, 
+                    "red_time": 0.0
+                }, 
+                "INTEGER": {
+                    "temp": 0
                 }, 
                 "STRING": {
                     "green_message": "", 
+                    "max": "", 
                     "red_message": ""
                 }
             }, 
             "variable_length_dict": {
                 "green": 0, 
                 "green_message": 0, 
+                "green_other": 0, 
+                "green_time": 0, 
+                "max": 0, 
                 "red": 0, 
                 "red_message": 0, 
-                "success": 0
+                "red_other": 0, 
+                "red_time": 0, 
+                "success": 0, 
+                "temp": 0
             }
         }, 
         "503767069": {
@@ -243,14 +257,24 @@
         }, 
         "659791978": {
             "variable_dict": {
+                "BOOLEAN": {
+                    "have_next": false, 
+                    "ignore_distance": false
+                }, 
                 "INTEGER": {
                     "temp_n": 0
                 }, 
                 "STRING": {
                     "temp_t": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "ghost": 0
                 }
             }, 
             "variable_length_dict": {
+                "ghost": 0, 
+                "have_next": 0, 
+                "ignore_distance": 0, 
                 "temp_n": 0, 
                 "temp_t": 0
             }
@@ -382,6 +406,9 @@
         }, 
         "916861028": {
             "variable_dict": {
+                "INTEGER": {
+                    "test": 0
+                }, 
                 "NEW_TIMER": {}, 
                 "STRING": {
                     "option_1": "", 
@@ -394,6 +421,7 @@
                 "option_1": 0, 
                 "option_2": 0, 
                 "option_3": 0, 
+                "test": 0, 
                 "type": 0
             }
         }, 
@@ -690,13 +718,22 @@
                 }, 
                 "FLOAT": {
                     "blue": 800.0, 
+                    "blue_other": 0.0, 
+                    "blue_time": 0.0, 
                     "green": 800.0, 
-                    "red": 800.0
+                    "green_other": 0.0, 
+                    "green_time": 0.0, 
+                    "red": 800.0, 
+                    "red_other": 0.0, 
+                    "red_time": 0.0
                 }, 
-                "INTEGER": {}, 
+                "INTEGER": {
+                    "temp": 0
+                }, 
                 "STRING": {
                     "blue_message": "", 
                     "green_message": "", 
+                    "max": "", 
                     "red_message": ""
                 }, 
                 "TABLE": {}
@@ -704,11 +741,19 @@
             "variable_length_dict": {
                 "blue": 0, 
                 "blue_message": 0, 
+                "blue_other": 0, 
+                "blue_time": 0, 
                 "green": 0, 
                 "green_message": 0, 
+                "green_other": 0, 
+                "green_time": 0, 
+                "max": 0, 
                 "red": 0, 
                 "red_message": 0, 
-                "success": 0
+                "red_other": 0, 
+                "red_time": 0, 
+                "success": 0, 
+                "temp": 0
             }
         }, 
         "1813368896": {
@@ -789,16 +834,26 @@
                     "success": false
                 }, 
                 "FLOAT": {
-                    "red": 800.0
+                    "red": 800.0, 
+                    "red_other": 0.0, 
+                    "red_time": 0.0
+                }, 
+                "INTEGER": {
+                    "temp": 0
                 }, 
                 "STRING": {
+                    "max": "", 
                     "red_message": ""
                 }
             }, 
             "variable_length_dict": {
+                "max": 0, 
                 "red": 0, 
                 "red_message": 0, 
-                "success": 0
+                "red_other": 0, 
+                "red_time": 0, 
+                "success": 0, 
+                "temp": 0
             }
         }, 
         "2010271789": {
@@ -871,7 +926,12 @@
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0
         }, 
-        "NEW_TIMER": {}, 
+        "NEW_TIMER": {
+            "main_qte": -1, 
+            "select_qte": -1, 
+            "single_qte": -1, 
+            "waiting_qte": -1
+        }, 
         "PLAYER_GROUP": {}, 
         "POINT": {
             "GHOSTKING": {
@@ -883,11 +943,16 @@
                 ]
             }
         }, 
+        "STRING": {
+            "QTE_RESULT": "UNKNOWN"
+        }, 
         "TABLE": {
             "GAME_STATUS": null, 
             "UI_Manager": null
         }, 
-        "UNIT_ENTITY": {}, 
+        "UNIT_ENTITY": {
+            "DIALOGUE_CHARACTER": 0
+        }, 
         "UNIT_NAME": {}
     }, 
     "variable_group_info": [
@@ -918,12 +983,60 @@
                 "GHOSTKING", 
                 "GHOSTKING"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "main_qte", 
+                "main_qte"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "select_qte", 
+                "select_qte"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "single_qte", 
+                "single_qte"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "waiting_qte", 
+                "waiting_qte"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "QTE_RESULT", 
+                "QTE_RESULT"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "DIALOGUE_CHARACTER", 
+                "DIALOGUE_CHARACTER"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "DIALOGUE_CHARACTER": 0, 
         "GAME_STATUS": 0, 
         "GHOSTKING": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
-        "UI_Manager": 0
+        "QTE_RESULT": 0, 
+        "UI_Manager": 0, 
+        "main_qte": 0, 
+        "select_qte": 0, 
+        "single_qte": 0, 
+        "waiting_qte": 0
     }
 }

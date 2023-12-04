@@ -280,6 +280,262 @@
             "trigger_name": "anomaly_ignore", 
             "valid": false
         }, 
+        "1711652978": {
+            "action": [
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "QTE_RESULT"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1555783738000035, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                63
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1711652978000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 1711652978, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
+        "1844658289": {
+            "action": [
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "--------------------TEST FIRST--------------------"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1844658289000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "TEST"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "call_rt_index": 0, 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1844658289000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "TEST"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "changed222"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "7a2cfc0f8c4311ee8d8e00155d67bc89"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1844658289000004, 
+                    "enable": false
+                }, 
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "--------------------TEST CHANGED222--------------------"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1844658289000005, 
+                    "enable": false
+                }, 
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "TEST"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "call_rt_index": 0, 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1844658289000006, 
+                    "enable": false
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                87
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1844658289000001, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 1844658289, 
+            "trigger_name": "function_test_2", 
+            "valid": true
+        }, 
         "2064408639": {
             "action": [
                 {
@@ -295,7 +551,7 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "--------------------test--------------------"
+                                "--------------------TEST FIRST--------------------"
                             ], 
                             "sub_type": 1
                         }, 
@@ -324,9 +580,18 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "--------------------good---------------------------"
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "TEST"
+                                    ], 
+                                    "sub_type": 1
+                                }
                             ], 
-                            "sub_type": 1
+                            "call_rt_index": 0, 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
                         }, 
                         {
                             "arg_type": 100001, 
@@ -346,7 +611,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                2.0
+                                0.001
                             ], 
                             "sub_type": 1
                         }, 
@@ -354,32 +619,34 @@
                             "arg_type": 100022, 
                             "args_list": [
                                 {
-                                    "action_type": "SET_UI_MODEL_ID", 
+                                    "action_type": "CALL_TRIGGER_FUNC", 
                                     "args_list": [
                                         {
-                                            "arg_type": 100025, 
+                                            "arg_type": 100177, 
                                             "args_list": [
-                                                1
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "TEST"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "changed"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
                                             ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100070, 
-                                            "args_list": [
-                                                "69bc4cce-2f68-427e-a238-4b6fb1768006"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100122, 
-                                            "args_list": [
-                                                200376
-                                            ], 
-                                            "sub_type": 1
+                                            "op_arg": [], 
+                                            "op_arg_enable": [], 
+                                            "sub_type": "7a2cfc0f8c4311ee8d8e00155d67bc89"
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 2064408639000080, 
+                                    "call_rt_arg_idxes": [], 
+                                    "element_id": 2064408639000149, 
                                     "enable": true
                                 }
                             ], 
@@ -387,7 +654,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 2064408639000088, 
+                    "element_id": 2064408639000174, 
                     "enable": true, 
                     "local_var": {
                         "__tuple__": true, 
@@ -398,175 +665,71 @@
                     }
                 }, 
                 {
-                    "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
                     "args_list": [
                         {
-                            "arg_type": 100000, 
+                            "arg_type": 100025, 
                             "args_list": [
-                                4.0
+                                1
                             ], 
                             "sub_type": 1
                         }, 
                         {
-                            "arg_type": 100022, 
+                            "arg_type": 100003, 
                             "args_list": [
-                                {
-                                    "action_type": "SET_UI_MODEL_ID", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100070, 
-                                            "args_list": [
-                                                "69bc4cce-2f68-427e-a238-4b6fb1768006"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100122, 
-                                            "args_list": [
-                                                203086
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 2064408639000120, 
-                                    "enable": true
-                                }
+                                "--------------------TEST CHANGED--------------------"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
                             ], 
                             "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 2064408639000104, 
-                    "enable": true, 
-                    "local_var": {
-                        "__tuple__": true, 
-                        "items": [
-                            {}, 
-                            {}
-                        ]
-                    }
+                    "element_id": 2064408639000154, 
+                    "enable": true
                 }, 
                 {
-                    "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
                     "args_list": [
                         {
-                            "arg_type": 100000, 
+                            "arg_type": 100025, 
                             "args_list": [
-                                6.0
+                                1
                             ], 
                             "sub_type": 1
                         }, 
                         {
-                            "arg_type": 100022, 
+                            "arg_type": 100003, 
                             "args_list": [
                                 {
-                                    "action_type": "SET_UI_MODEL_ID", 
+                                    "arg_type": 100003, 
                                     "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100070, 
-                                            "args_list": [
-                                                "69bc4cce-2f68-427e-a238-4b6fb1768006"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100122, 
-                                            "args_list": [
-                                                203087
-                                            ], 
-                                            "sub_type": 1
-                                        }
+                                        "TEST"
                                     ], 
-                                    "bp": false, 
-                                    "element_id": 2064408639000129, 
-                                    "enable": true
+                                    "sub_type": 1
                                 }
+                            ], 
+                            "call_rt_index": 0, 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
                             ], 
                             "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 2064408639000083, 
-                    "enable": true, 
-                    "local_var": {
-                        "__tuple__": true, 
-                        "items": [
-                            {}, 
-                            {}
-                        ]
-                    }
-                }, 
-                {
-                    "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                8.0
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "SET_UI_MODEL_ID", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100070, 
-                                            "args_list": [
-                                                "69bc4cce-2f68-427e-a238-4b6fb1768006"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100122, 
-                                            "args_list": [
-                                                203089
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 2064408639000144, 
-                                    "enable": true
-                                }
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 2064408639000138, 
-                    "enable": true, 
-                    "local_var": {
-                        "__tuple__": true, 
-                        "items": [
-                            {}, 
-                            {}
-                        ]
-                    }
+                    "element_id": 2064408639000163, 
+                    "enable": true
                 }
             ], 
             "call_enabled": true, 
@@ -599,10 +762,46 @@
         "_trigger_group_": true, 
         "group": [
             {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2127462456, 
+                            "start_main_QTE"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            353079364, 
+                            "start_select_QTE"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            420253765, 
+                            "start_single_QTE"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "OlpBbpDoEe6U-AAVXWe8ib", 
+                "name": "QTE"
+            }, 
+            {
                 "__tuple__": true, 
                 "items": [
                     2064408639, 
                     "function_test"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1844658289, 
+                    "function_test_2"
                 ]
             }, 
             {
@@ -627,40 +826,11 @@
                 ]
             }, 
             {
-                "_trigger_group_": true, 
-                "group": [
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            2127462456, 
-                            "start_main_QTE"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            353079364, 
-                            "start_select_QTE"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            420253765, 
-                            "start_single_QTE"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            1555783738, 
-                            "end_QTE"
-                        ]
-                    }
-                ], 
-                "is_sub_folder": true, 
-                "key": "OlpBbpDoEe6U-AAVXWe8ib", 
-                "name": "QTE"
+                "__tuple__": true, 
+                "items": [
+                    1711652978, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                ]
             }
         ], 
         "is_sub_folder": false, 

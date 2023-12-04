@@ -555,82 +555,6 @@
             "trigger_name": "start_single_QTE", 
             "valid": true
         }, 
-        "1555783738": {
-            "action": [
-                {
-                    "action_type": "CALL_TRIGGER_FUNC", 
-                    "args_list": [
-                        {
-                            "arg_type": 100177, 
-                            "args_list": [], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "82ae7bde8c4111ee8d9600155d67bc89"
-                        }
-                    ], 
-                    "bp": false, 
-                    "call_rt_arg_idxes": [], 
-                    "element_id": 1555783738000007, 
-                    "enable": true
-                }
-            ], 
-            "call_enabled": true, 
-            "condition": [
-                {
-                    "args_list": [
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                null
-                            ], 
-                            "call_rt_index": 0, 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
-                        }, 
-                        {
-                            "arg_type": 100035, 
-                            "args_list": [
-                                "=="
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "WAITING_QTE"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "condition_type": "STRING_COMPARE", 
-                    "element_id": 1555783738000031, 
-                    "enable": true
-                }
-            ], 
-            "enabled": true, 
-            "event": [
-                {
-                    "args_list": [
-                        {
-                            "arg_type": 200220, 
-                            "args_list": [
-                                57
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "element_id": 1555783738000002, 
-                    "enable": true, 
-                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
-                }
-            ], 
-            "group_id": 0, 
-            "p_trigger_id": null, 
-            "trigger_id": 1555783738, 
-            "trigger_name": "end_QTE", 
-            "valid": false
-        }, 
         "2127462456": {
             "action": [
                 {
@@ -954,13 +878,6 @@
                 "items": [
                     420253765, 
                     "start_single_QTE"
-                ]
-            }, 
-            {
-                "__tuple__": true, 
-                "items": [
-                    1555783738, 
-                    "end_QTE"
                 ]
             }
         ], 

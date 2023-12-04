@@ -12,6 +12,20 @@
                             "name": "exit_button_click", 
                             "sound_id": null, 
                             "type": 2
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "exit_button_stay", 
+                            "sound_id": null, 
+                            "type": 24
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "exit_button_leave", 
+                            "sound_id": null, 
+                            "type": 25
                         }
                     ], 
                     "name": "exit_button", 
@@ -101,7 +115,7 @@
                                 }
                             ], 
                             "enabled": true, 
-                            "name": "list_player_0", 
+                            "name": "list_player_stay", 
                             "sound_id": null, 
                             "type": 24
                         }, 
@@ -119,7 +133,7 @@
                                 }
                             ], 
                             "enabled": true, 
-                            "name": "list_player_1", 
+                            "name": "list_player_leave", 
                             "sound_id": null, 
                             "type": 25
                         }, 
@@ -255,7 +269,7 @@
                                 }
                             ], 
                             "enabled": true, 
-                            "name": "list_judger_0", 
+                            "name": "list_judger_saty", 
                             "sound_id": null, 
                             "type": 24
                         }, 
@@ -273,7 +287,7 @@
                                 }
                             ], 
                             "enabled": true, 
-                            "name": "list_judger_1", 
+                            "name": "list_judger_leave", 
                             "sound_id": null, 
                             "type": 25
                         }, 
@@ -409,7 +423,7 @@
                                 }
                             ], 
                             "enabled": true, 
-                            "name": "list_general_0", 
+                            "name": "list_general_stay", 
                             "sound_id": null, 
                             "type": 24
                         }, 
@@ -427,7 +441,7 @@
                                 }
                             ], 
                             "enabled": true, 
-                            "name": "list_general_1", 
+                            "name": "list_general_leave", 
                             "sound_id": null, 
                             "type": 25
                         }, 
@@ -563,7 +577,7 @@
                                 }
                             ], 
                             "enabled": true, 
-                            "name": "list_lady_0", 
+                            "name": "list_lady_stay", 
                             "sound_id": null, 
                             "type": 24
                         }, 
@@ -581,7 +595,7 @@
                                 }
                             ], 
                             "enabled": true, 
-                            "name": "list_lady_1", 
+                            "name": "list_lady_leave", 
                             "sound_id": null, 
                             "type": 25
                         }, 

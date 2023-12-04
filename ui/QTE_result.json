@@ -20,19 +20,69 @@
                             26
                         ]
                     }, 
-                    "name": "main_text", 
+                    "name": "tittle", 
+                    "over_pattern": true, 
                     "pos": {
                         "__tuple__": true, 
                         "items": [
                             240.0, 
-                            177.0
+                            277.0
                         ]
                     }, 
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
-                            50.208333333333336, 
-                            59.0
+                            50.0, 
+                            92.33333333333333
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            177.0, 
+                            46.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u4f60\u7684\u9009\u62e9\u662f", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "87c19de2-398d-43a4-a3ca-23dcc0408908"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "MSYH", 
+                            26
+                        ]
+                    }, 
+                    "name": "main_text", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            240.0, 
+                            165.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            55.00000000000001
                         ]
                     }, 
                     "size": {
@@ -45,7 +95,7 @@
                     "text": {
                         "__tuple__": true, 
                         "items": [
-                            "\u554a\u554a\u554a\u554a", 
+                            "", 
                             false
                         ]
                     }, 
@@ -98,7 +148,29 @@
                             "uid": "ad034e0e-ea1a-4098-b108-973060920da8"
                         }
                     ], 
-                    "event_list": [], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "confirm_QTE_click", 
+                            "sound_id": null, 
+                            "type": 2
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "ok_stay", 
+                            "sound_id": null, 
+                            "type": 24
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "ok_leave", 
+                            "sound_id": null, 
+                            "type": 25
+                        }
+                    ], 
                     "image": 133619, 
                     "name": "ok_bg", 
                     "pos": {
@@ -152,6 +224,6 @@
     "type": 2, 
     "ui_anims": [], 
     "uid": "265a1a40-bc77-4e6c-97b6-8bfeb9319a8e", 
-    "visible": true, 
+    "visible": false, 
     "zorder": 400
 }
