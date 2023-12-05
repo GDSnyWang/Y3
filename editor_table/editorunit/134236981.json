@@ -151,6 +151,61 @@
     "keep_target": true, 
     "key": 134236981, 
     "kv": {
+        "eat_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "eat_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 16, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "eat_4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "eat_4", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 17, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "final_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "final_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 18, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "final_2": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "final_2", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 19, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "final_3": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "final_3", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 20, 
+            "type": 0, 
+            "value": "    \u8fd9\u6ca1\u4f60\u7684\u4e8b\u4e86\uff0c\u53bb\u627e\u5176\u4ed6\u4eba\u5427\uff01"
+        }, 
         "first_meet": {
             "annotation": "", 
             "desc": "", 
@@ -162,6 +217,39 @@
             "type": 0, 
             "value": "\u6b22\u8fce\u6765\u5230\u4e0a\u5c42\u7075\u754c\uff0c\u6211\u662f\u7d2b\u8863\u5973\u58eb\u3002"
         }, 
+        "job_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "job_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 5, 
+            "type": 0, 
+            "value": "NOT_ACTIVE"
+        }, 
+        "job_2": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "job_2", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 6, 
+            "type": 0, 
+            "value": "NOT_ACTIVE"
+        }, 
+        "job_3": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "job_3", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 7, 
+            "type": 0, 
+            "value": "NOT_ACTIVE"
+        }, 
         "meet": {
             "annotation": "", 
             "desc": "", 
@@ -172,6 +260,127 @@
             "sort": 0, 
             "type": 3, 
             "value": false
+        }, 
+        "mission_1_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "mission_1_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 8, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "mission_1_4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "mission_1_4", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 9, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "mission_2_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "mission_2_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 10, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "mission_2_5": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "mission_2_5", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 11, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "mission_3_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "mission_3_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 12, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "mission_3_5": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "mission_3_5", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 13, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "next": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "next", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 4, 
+            "type": 0, 
+            "value": "MIDDLE"
+        }, 
+        "phase": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "phase", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "sort": 3, 
+            "type": 2, 
+            "value": 1
+        }, 
+        "status": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "status", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 2, 
+            "type": 0, 
+            "value": "first"
+        }, 
+        "wait2_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "wait2_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 14, 
+            "type": 0, 
+            "value": ""
+        }, 
+        "wait3_1": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "wait3_1", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 15, 
+            "type": 0, 
+            "value": ""
         }
     }, 
     "level": 1, 

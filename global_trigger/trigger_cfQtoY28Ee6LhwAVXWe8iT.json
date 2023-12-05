@@ -34,7 +34,7 @@
             ], 
             "call_enabled": true, 
             "condition": [], 
-            "enabled": true, 
+            "enabled": false, 
             "event": [
                 {
                     "args_list": [
@@ -69,6 +69,138 @@
             "p_trigger_id": null, 
             "trigger_id": 364822600, 
             "trigger_name": "UI_event_test", 
+            "valid": true
+        }, 
+        "723243127": {
+            "action": [
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "QTE_STATUS"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "call_rt_index": 0, 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 723243127000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                65
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 723243127000001, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 723243127, 
+            "trigger_name": "get_QTE", 
+            "valid": true
+        }, 
+        "1111933046": {
+            "action": [
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "GAME_STAGE"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "call_rt_index": 0, 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1111933046000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                64
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1111933046000001, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 1111933046, 
+            "trigger_name": "get_GAME_STAGE", 
             "valid": true
         }, 
         "1592946750": {
@@ -340,7 +472,7 @@
             "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
             "p_trigger_id": null, 
             "trigger_id": 1711652978, 
-            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "trigger_name": "get_QTE_RESULT", 
             "valid": true
         }, 
         "1844658289": {
@@ -829,7 +961,21 @@
                 "__tuple__": true, 
                 "items": [
                     1711652978, 
-                    "\u65b0\u5efa\u89e6\u53d1\u5668"
+                    "get_QTE_RESULT"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1111933046, 
+                    "get_GAME_STAGE"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    723243127, 
+                    "get_QTE"
                 ]
             }
         ], 

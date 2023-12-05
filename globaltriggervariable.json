@@ -77,6 +77,12 @@
                 "temp": 0
             }
         }, 
+        "191967331": {
+            "variable_dict": {
+                "UNIT_ENTITY": {}
+            }, 
+            "variable_length_dict": {}
+        }, 
         "210653238": {
             "variable_dict": {
                 "UNIT_ENTITY": {
@@ -146,9 +152,7 @@
                     "red_other": 0.0, 
                     "red_time": 0.0
                 }, 
-                "INTEGER": {
-                    "temp": 0
-                }, 
+                "INTEGER": {}, 
                 "STRING": {
                     "green_message": "", 
                     "max": "", 
@@ -165,8 +169,7 @@
                 "red_message": 0, 
                 "red_other": 0, 
                 "red_time": 0, 
-                "success": 0, 
-                "temp": 0
+                "success": 0
             }
         }, 
         "503767069": {
@@ -406,9 +409,7 @@
         }, 
         "916861028": {
             "variable_dict": {
-                "INTEGER": {
-                    "test": 0
-                }, 
+                "INTEGER": {}, 
                 "NEW_TIMER": {}, 
                 "STRING": {
                     "option_1": "", 
@@ -421,14 +422,14 @@
                 "option_1": 0, 
                 "option_2": 0, 
                 "option_3": 0, 
-                "test": 0, 
                 "type": 0
             }
         }, 
         "985944174": {
             "variable_dict": {
                 "BOOLEAN": {
-                    "have_next": false
+                    "have_next": false, 
+                    "ignore_distance": false
                 }, 
                 "INTEGER": {
                     "temp_n": 0
@@ -439,6 +440,7 @@
             }, 
             "variable_length_dict": {
                 "have_next": 0, 
+                "ignore_distance": 0, 
                 "temp_n": 0, 
                 "temp_t": 0
             }
@@ -727,9 +729,7 @@
                     "red_other": 0.0, 
                     "red_time": 0.0
                 }, 
-                "INTEGER": {
-                    "temp": 0
-                }, 
+                "INTEGER": {}, 
                 "STRING": {
                     "blue_message": "", 
                     "green_message": "", 
@@ -752,8 +752,7 @@
                 "red_message": 0, 
                 "red_other": 0, 
                 "red_time": 0, 
-                "success": 0, 
-                "temp": 0
+                "success": 0
             }
         }, 
         "1813368896": {
@@ -838,9 +837,7 @@
                     "red_other": 0.0, 
                     "red_time": 0.0
                 }, 
-                "INTEGER": {
-                    "temp": 0
-                }, 
+                "INTEGER": {}, 
                 "STRING": {
                     "max": "", 
                     "red_message": ""
@@ -852,8 +849,7 @@
                 "red_message": 0, 
                 "red_other": 0, 
                 "red_time": 0, 
-                "success": 0, 
-                "temp": 0
+                "success": 0
             }
         }, 
         "2010271789": {
@@ -929,8 +925,7 @@
         "NEW_TIMER": {
             "main_qte": -1, 
             "select_qte": -1, 
-            "single_qte": -1, 
-            "waiting_qte": -1
+            "single_qte": -1
         }, 
         "PLAYER_GROUP": {}, 
         "POINT": {
@@ -1008,13 +1003,6 @@
         {
             "__tuple__": true, 
             "items": [
-                "waiting_qte", 
-                "waiting_qte"
-            ]
-        }, 
-        {
-            "__tuple__": true, 
-            "items": [
                 "QTE_RESULT", 
                 "QTE_RESULT"
             ]
@@ -1036,7 +1024,6 @@
         "UI_Manager": 0, 
         "main_qte": 0, 
         "select_qte": 0, 
-        "single_qte": 0, 
-        "waiting_qte": 0
+        "single_qte": 0
     }
 }

@@ -1,5 +1,149 @@
 {
     "trigger_dict": {
+        "21184607": {
+            "action": [
+                {
+                    "action_type": "SET_UI_MODEL_ID", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "69bc4cce-2f68-427e-a238-4b6fb1768006"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100122, 
+                            "args_list": [
+                                203089
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 507011166000014, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "e4f4251f-12e4-466a-afa9-7e715456ecbb"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 21184607000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "4946a059-2643-42d0-9fb2-f859e047e768"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 21184607000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "da987f60-a721-425e-a7ac-4bbee738abf3"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "MESSAGE_STATUS"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "JUDGER"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 21184607000008, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_judger_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 21184607000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 
+            "p_trigger_id": null, 
+            "trigger_id": 21184607, 
+            "trigger_name": "judger_page", 
+            "valid": true
+        }, 
         "224862292": {
             "action": [
                 {
@@ -96,42 +240,42 @@
                                 {
                                     "args_list": [
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "JUDGER'S_PERMISSION"
+                                                        "judger_permission"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
-                                            "arg_type": 100015, 
+                                            "arg_type": 100035, 
                                             "args_list": [
-                                                "!="
+                                                "=="
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
-                                                0
+                                                true
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 224862292000003, 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1604812878000027, 
                                     "enable": true
                                 }
                             ], 
@@ -164,6 +308,150 @@
             "p_trigger_id": null, 
             "trigger_id": 224862292, 
             "trigger_name": "judger's_permission", 
+            "valid": true
+        }, 
+        "273506400": {
+            "action": [
+                {
+                    "action_type": "SET_UI_MODEL_ID", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "69bc4cce-2f68-427e-a238-4b6fb1768006"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100122, 
+                            "args_list": [
+                                203086
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 507011166000014, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "e4f4251f-12e4-466a-afa9-7e715456ecbb"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 273506400000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "4946a059-2643-42d0-9fb2-f859e047e768"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 273506400000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "da987f60-a721-425e-a7ac-4bbee738abf3"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "MESSAGE_STATUS"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "GENERAL"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 273506400000004, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_general_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 273506400000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 
+            "p_trigger_id": null, 
+            "trigger_id": 273506400, 
+            "trigger_name": "general_page", 
             "valid": true
         }, 
         "400633937": {
@@ -262,42 +550,42 @@
                                 {
                                     "args_list": [
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "LADY'S_BLESS"
+                                                        "lady_bless"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
-                                            "arg_type": 100015, 
+                                            "arg_type": 100035, 
                                             "args_list": [
-                                                "!="
+                                                "=="
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
-                                                0
+                                                true
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 2073038924000011, 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1604812878000027, 
                                     "enable": true
                                 }
                             ], 
@@ -428,42 +716,42 @@
                                 {
                                     "args_list": [
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "GENERAL'S_PERMISSION"
+                                                        "general_permission"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
-                                            "arg_type": 100015, 
+                                            "arg_type": 100035, 
                                             "args_list": [
-                                                "!="
+                                                "=="
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
-                                                0
+                                                true
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 409706581000003, 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1604812878000027, 
                                     "enable": true
                                 }
                             ], 
@@ -496,6 +784,150 @@
             "p_trigger_id": null, 
             "trigger_id": 409706581, 
             "trigger_name": "general's_permission", 
+            "valid": true
+        }, 
+        "507011166": {
+            "action": [
+                {
+                    "action_type": "SET_UI_MODEL_ID", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "69bc4cce-2f68-427e-a238-4b6fb1768006"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100122, 
+                            "args_list": [
+                                200376
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 507011166000014, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "4946a059-2643-42d0-9fb2-f859e047e768"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 507011166000010, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "e4f4251f-12e4-466a-afa9-7e715456ecbb"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 507011166000005, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "da987f60-a721-425e-a7ac-4bbee738abf3"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "MESSAGE_STATUS"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "PLAYER"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 21184607000008, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_player_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 507011166000002, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 
+            "p_trigger_id": null, 
+            "trigger_id": 507011166, 
+            "trigger_name": "player_page", 
             "valid": true
         }, 
         "627179603": {
@@ -594,42 +1026,42 @@
                                 {
                                     "args_list": [
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "STOLEN_STONE"
+                                                        "spirit_stone"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
-                                            "arg_type": 100015, 
+                                            "arg_type": 100035, 
                                             "args_list": [
-                                                "!="
+                                                "=="
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
-                                                0
+                                                true
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 627179603000003, 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1604812878000027, 
                                     "enable": true
                                 }
                             ], 
@@ -715,65 +1147,32 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "action_type": "SET_ENTITY_KV", 
                     "args_list": [
                         {
-                            "arg_type": 100011, 
+                            "arg_type": 100006, 
                             "args_list": [
-                                "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                1
                             ], 
                             "sub_type": 1
                         }, 
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "SOUL_OF_GHOSTKING"
+                                "soul_of_ghostking"
                             ], 
                             "sub_type": 1
                         }, 
                         {
-                            "arg_type": 100002, 
+                            "arg_type": 100001, 
                             "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100011, 
-                                            "args_list": [
-                                                "bedc6c99-39b9-44c7-a296-088adbbdc822"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "SOUL_OF_GHOSTKING"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_INTEGER_TABLE_VAR_1D"
-                                }, 
-                                {
-                                    "arg_type": 100016, 
-                                    "args_list": [
-                                        "-"
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }
+                                false
                             ], 
-                            "sub_type": "MATH_OPERATION"
+                            "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1419276365000046, 
+                    "element_id": 700801103000060, 
                     "enable": true
                 }
             ], 
@@ -828,42 +1227,42 @@
                                 {
                                     "args_list": [
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "SOUL_OF_GHOSTKING"
+                                                        "soul_of_ghostking"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
-                                            "arg_type": 100015, 
+                                            "arg_type": 100035, 
                                             "args_list": [
-                                                "!="
+                                                "=="
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
-                                                0
+                                                true
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 2073038924000011, 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1604812878000014, 
                                     "enable": true
                                 }
                             ], 
@@ -997,21 +1396,21 @@
                                             "arg_type": 100002, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "GHOST_PLANT"
+                                                        "spirit_plant"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_INTEGER_KV"
                                         }, 
                                         {
                                             "arg_type": 100015, 
@@ -1029,7 +1428,7 @@
                                         }
                                     ], 
                                     "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 2073038924000011, 
+                                    "element_id": 718504016000014, 
                                     "enable": true
                                 }
                             ], 
@@ -1286,42 +1685,42 @@
                                 {
                                     "args_list": [
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "LADY'S_PERMISSION"
+                                                        "lady_permission"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
-                                            "arg_type": 100015, 
+                                            "arg_type": 100035, 
                                             "args_list": [
-                                                "!="
+                                                "=="
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
-                                                0
+                                                true
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 980562006000003, 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1604812878000027, 
                                     "enable": true
                                 }
                             ], 
@@ -1452,42 +1851,42 @@
                                 {
                                     "args_list": [
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "GENERAL'S_BLESS"
+                                                        "general_bless"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
-                                            "arg_type": 100015, 
+                                            "arg_type": 100035, 
                                             "args_list": [
-                                                "!="
+                                                "=="
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
-                                                0
+                                                true
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 2073038924000011, 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1604812878000027, 
                                     "enable": true
                                 }
                             ], 
@@ -1522,6 +1921,63 @@
             "trigger_name": "general's_bless", 
             "valid": true
         }, 
+        "1105875064": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "9d29602a-45a5-4b7e-811f-b08be4858cd4"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1105875064000007, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                48
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1105875064000004, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_UP_EVENT"
+                }
+            ], 
+            "group_id": "qoIwAJAxEe6w8wAVXWe8id", 
+            "p_trigger_id": null, 
+            "trigger_id": 1105875064, 
+            "trigger_name": "open", 
+            "valid": true
+        }, 
         "1165496407": {
             "action": [
                 {
@@ -1536,28 +1992,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        3
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_JUDGER"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_1"
+                                                        "job_1"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -1652,28 +2101,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        3
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_JUDGER"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_1"
+                                                        "job_2"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -1691,7 +2133,7 @@
                                         }
                                     ], 
                                     "condition_type": "STRING_COMPARE", 
-                                    "element_id": 1165496407000029, 
+                                    "element_id": 1165496407000085, 
                                     "enable": true
                                 }
                             ], 
@@ -1768,28 +2210,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        3
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_JUDGER"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_1"
+                                                        "job_3"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -1807,7 +2242,7 @@
                                         }
                                     ], 
                                     "condition_type": "STRING_COMPARE", 
-                                    "element_id": 1165496407000066, 
+                                    "element_id": 1165496407000098, 
                                     "enable": true
                                 }
                             ], 
@@ -2104,6 +2539,63 @@
             "p_trigger_id": null, 
             "trigger_id": 1173696600, 
             "trigger_name": "belief_situation", 
+            "valid": true
+        }, 
+        "1228017757": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "9d29602a-45a5-4b7e-811f-b08be4858cd4"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1228017757000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_button_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1228017757000002, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 
+            "p_trigger_id": null, 
+            "trigger_id": 1228017757, 
+            "trigger_name": "exit", 
             "valid": true
         }, 
         "1277120604": {
@@ -2408,19 +2900,19 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "action_type": "SET_ENTITY_KV", 
                     "args_list": [
                         {
-                            "arg_type": 100011, 
+                            "arg_type": 100006, 
                             "args_list": [
-                                "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                1
                             ], 
                             "sub_type": 1
                         }, 
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                "SOUL_OF_GHOST"
+                                "soul_of_ghost"
                             ], 
                             "sub_type": 1
                         }, 
@@ -2431,21 +2923,21 @@
                                     "arg_type": 100002, 
                                     "args_list": [
                                         {
-                                            "arg_type": 100011, 
+                                            "arg_type": 100006, 
                                             "args_list": [
-                                                "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                1
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
                                             "arg_type": 100003, 
                                             "args_list": [
-                                                "SOUL_OF_GHOST"
+                                                "soul_of_ghost"
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                    "sub_type": "GET_INTEGER_KV"
                                 }, 
                                 {
                                     "arg_type": 100016, 
@@ -2524,21 +3016,21 @@
                                             "arg_type": 100002, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "SOUL_OF_GHOST"
+                                                        "soul_of_ghost"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_INTEGER_KV"
                                         }, 
                                         {
                                             "arg_type": 100015, 
@@ -2556,7 +3048,7 @@
                                         }
                                     ], 
                                     "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 2073038924000011, 
+                                    "element_id": 1419276365000049, 
                                     "enable": true
                                 }
                             ], 
@@ -2772,28 +3264,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        4
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_LADY"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_1"
+                                                        "job_1"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -2811,7 +3296,7 @@
                                         }
                                     ], 
                                     "condition_type": "STRING_COMPARE", 
-                                    "element_id": 1476870234000005, 
+                                    "element_id": 1165496407000020, 
                                     "enable": true
                                 }
                             ], 
@@ -2888,28 +3373,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        4
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_LADY"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_2"
+                                                        "job_2"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -2927,7 +3405,7 @@
                                         }
                                     ], 
                                     "condition_type": "STRING_COMPARE", 
-                                    "element_id": 1476870234000008, 
+                                    "element_id": 1476870234000027, 
                                     "enable": true
                                 }
                             ], 
@@ -3004,28 +3482,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        4
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_LADY"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_3"
+                                                        "job_3"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -3043,7 +3514,7 @@
                                         }
                                     ], 
                                     "condition_type": "STRING_COMPARE", 
-                                    "element_id": 1476870234000011, 
+                                    "element_id": 1476870234000040, 
                                     "enable": true
                                 }
                             ], 
@@ -3299,42 +3770,42 @@
                                 {
                                     "args_list": [
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "SOUL_OF_GHOSTKING"
+                                                        "soul_of_ghostking"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_BOOLEAN_KV"
                                         }, 
                                         {
-                                            "arg_type": 100015, 
+                                            "arg_type": 100035, 
                                             "args_list": [
-                                                "!="
+                                                "=="
                                             ], 
                                             "sub_type": 1
                                         }, 
                                         {
-                                            "arg_type": 100002, 
+                                            "arg_type": 100001, 
                                             "args_list": [
-                                                0
+                                                true
                                             ], 
                                             "sub_type": 1
                                         }
                                     ], 
-                                    "condition_type": "FLOAT_COMPARE", 
-                                    "element_id": 2073038924000011, 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1604812878000027, 
                                     "enable": true
                                 }
                             ], 
@@ -3369,6 +3840,150 @@
             "trigger_name": "ghostking_soul", 
             "valid": true
         }, 
+        "1951228001": {
+            "action": [
+                {
+                    "action_type": "SET_UI_MODEL_ID", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "69bc4cce-2f68-427e-a238-4b6fb1768006"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100122, 
+                            "args_list": [
+                                203087
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 507011166000014, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "e4f4251f-12e4-466a-afa9-7e715456ecbb"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1951228001000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "4946a059-2643-42d0-9fb2-f859e047e768"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1951228001000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "da987f60-a721-425e-a7ac-4bbee738abf3"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "MESSAGE_STATUS"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "LADY"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1951228001000004, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_lady_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1951228001000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 
+            "p_trigger_id": null, 
+            "trigger_id": 1951228001, 
+            "trigger_name": "lady_page", 
+            "valid": true
+        }, 
         "2047291481": {
             "action": [
                 {
@@ -3383,28 +3998,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        2
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_GENERAL"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_1"
+                                                        "job_1"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -3422,7 +4030,7 @@
                                         }
                                     ], 
                                     "condition_type": "STRING_COMPARE", 
-                                    "element_id": 2047291481000005, 
+                                    "element_id": 1165496407000020, 
                                     "enable": true
                                 }
                             ], 
@@ -3499,28 +4107,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        2
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_GENERAL"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_2"
+                                                        "job_2"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -3538,7 +4139,7 @@
                                         }
                                     ], 
                                     "condition_type": "STRING_COMPARE", 
-                                    "element_id": 2047291481000008, 
+                                    "element_id": 2047291481000027, 
                                     "enable": true
                                 }
                             ], 
@@ -3615,28 +4216,21 @@
                                             "arg_type": 100003, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "4ea1e080-c44d-469a-b6ce-d275af9f7480"
+                                                        2
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "THE_GENERAL"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "mission_3"
+                                                        "job_3"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                            "sub_type": "GET_STRING_KV"
                                         }, 
                                         {
                                             "arg_type": 100035, 
@@ -3654,7 +4248,7 @@
                                         }
                                     ], 
                                     "condition_type": "STRING_COMPARE", 
-                                    "element_id": 2047291481000011, 
+                                    "element_id": 2047291481000040, 
                                     "enable": true
                                 }
                             ], 
@@ -3913,21 +4507,21 @@
                                             "arg_type": 100002, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100011, 
+                                                    "arg_type": 100006, 
                                                     "args_list": [
-                                                        "bedc6c99-39b9-44c7-a296-088adbbdc822"
+                                                        1
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "SOUL_OF_GHOST"
+                                                        "soul_of_ghost"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                            "sub_type": "GET_INTEGER_KV"
                                         }, 
                                         {
                                             "arg_type": 100015, 
@@ -4115,6 +4709,48 @@
                 "items": [
                     1277120604, 
                     "permission_get"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    507011166, 
+                    "player_page"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    21184607, 
+                    "judger_page"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    273506400, 
+                    "general_page"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1951228001, 
+                    "lady_page"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1228017757, 
+                    "exit"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1105875064, 
+                    "open"
                 ]
             }
         ], 

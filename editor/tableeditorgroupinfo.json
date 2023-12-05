@@ -16,22 +16,8 @@
  {
   "__tuple__": true, 
   "items": [
-   "8e56bcb7-b6ce-4742-83d0-b1abf13efc73", 
-   "NPC_DIALOGUE"
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    "da987f60-a721-425e-a7ac-4bbee738abf3", 
    "HINT_MESSAGE"
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   "bedc6c99-39b9-44c7-a296-088adbbdc822", 
-   "PLAYER_STATUS"
   ]
  }, 
  {

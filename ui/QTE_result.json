@@ -63,14 +63,8 @@
                     }, 
                     "children": [], 
                     "event_list": [], 
-                    "font": {
-                        "__tuple__": true, 
-                        "items": [
-                            "MSYH", 
-                            26
-                        ]
-                    }, 
                     "name": "main_text", 
+                    "over_pattern": true, 
                     "pos": {
                         "__tuple__": true, 
                         "items": [

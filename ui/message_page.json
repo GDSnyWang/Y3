@@ -98,6 +98,36 @@
                             }, 
                             "type": 3, 
                             "uid": "b38be940-6c30-44b9-a3ba-57a3986e8455"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "image": 133154, 
+                            "name": "selected_effect", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    130.0, 
+                                    58.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    50.0, 
+                                    52.72727272727272
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    291.0, 
+                                    95.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "66c49f96-39f8-4f55-a0dd-14af13e5c962", 
+                            "visible": false
                         }
                     ], 
                     "event_list": [
@@ -681,20 +711,13 @@
                 {
                     "children": [
                         {
-                            "alignment": {
-                                "__tuple__": true, 
-                                "items": [
-                                    2, 
-                                    8
-                                ]
-                            }, 
                             "children": [], 
                             "event_list": [], 
                             "font": {
                                 "__tuple__": true, 
                                 "items": [
                                     "MSYH", 
-                                    40
+                                    30
                                 ]
                             }, 
                             "name": "main_text", 
@@ -715,7 +738,7 @@
                             "size": {
                                 "__tuple__": true, 
                                 "items": [
-                                    1618.0, 
+                                    1200.0, 
                                     293.0
                                 ]
                             }, 
@@ -1493,36 +1516,6 @@
                             }, 
                             "type": 4, 
                             "uid": "8653dd58-32d6-44a7-8758-47f5a982ead8"
-                        }, 
-                        {
-                            "children": [], 
-                            "event_list": [], 
-                            "image": 133154, 
-                            "name": "selected_effect", 
-                            "pos": {
-                                "__tuple__": true, 
-                                "items": [
-                                    -847.35302734375, 
-                                    122.4132080078125
-                                ]
-                            }, 
-                            "pos_percent": {
-                                "__tuple__": true, 
-                                "items": [
-                                    -847.35302734375, 
-                                    122.4132080078125
-                                ]
-                            }, 
-                            "size": {
-                                "__tuple__": true, 
-                                "items": [
-                                    291.0, 
-                                    95.0
-                                ]
-                            }, 
-                            "type": 4, 
-                            "uid": "66c49f96-39f8-4f55-a0dd-14af13e5c962", 
-                            "visible": false
                         }, 
                         {
                             "alignment": {
