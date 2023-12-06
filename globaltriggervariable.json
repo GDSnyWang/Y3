@@ -125,6 +125,22 @@
                 "is_bag_open": 0
             }
         }, 
+        "362045562": {
+            "variable_dict": {
+                "STRING": {
+                    "mission": "", 
+                    "status": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "character": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "character": 0, 
+                "mission": 0, 
+                "status": 0
+            }
+        }, 
         "366354479": {
             "variable_dict": {
                 "PLAYER": {
@@ -397,6 +413,46 @@
                 "time": 0
             }
         }, 
+        "834244725": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "have_next": false, 
+                    "ignore_distance": false
+                }, 
+                "INTEGER": {
+                    "temp_n": 0
+                }, 
+                "STRING": {
+                    "temp_t": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "have_next": 0, 
+                "ignore_distance": 0, 
+                "temp_n": 0, 
+                "temp_t": 0
+            }
+        }, 
+        "835465338": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "have_next": false, 
+                    "ignore_distance": false
+                }, 
+                "INTEGER": {
+                    "temp_n": 0
+                }, 
+                "STRING": {
+                    "temp_t": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "have_next": 0, 
+                "ignore_distance": 0, 
+                "temp_n": 0, 
+                "temp_t": 0
+            }
+        }, 
         "863993900": {
             "variable_dict": {
                 "FLOAT": {
@@ -424,6 +480,12 @@
                 "option_3": 0, 
                 "type": 0
             }
+        }, 
+        "981049476": {
+            "variable_dict": {
+                "UNIT_ENTITY": {}
+            }, 
+            "variable_length_dict": {}
         }, 
         "985944174": {
             "variable_dict": {
@@ -628,6 +690,31 @@
                 "row": 0
             }
         }, 
+        "1538846836": {
+            "variable_dict": {
+                "BOOLEAN": {
+                    "have_next": false, 
+                    "ignore_distance": false
+                }, 
+                "INTEGER": {
+                    "temp_n": 0
+                }, 
+                "STRING": {
+                    "mission": "", 
+                    "status": "", 
+                    "temp_t": ""
+                }, 
+                "UNIT_ENTITY": {}
+            }, 
+            "variable_length_dict": {
+                "have_next": 0, 
+                "ignore_distance": 0, 
+                "mission": 0, 
+                "status": 0, 
+                "temp_n": 0, 
+                "temp_t": 0
+            }
+        }, 
         "1559846928": {
             "variable_dict": {
                 "INTEGER": {
@@ -753,6 +840,20 @@
                 "red_other": 0, 
                 "red_time": 0, 
                 "success": 0
+            }
+        }, 
+        "1800700025": {
+            "variable_dict": {
+                "STRING": {
+                    "input": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "character": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "character": 0, 
+                "input": 0
             }
         }, 
         "1813368896": {

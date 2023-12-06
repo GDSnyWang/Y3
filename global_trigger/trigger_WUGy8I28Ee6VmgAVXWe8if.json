@@ -258,6 +258,34 @@
                     "element_id": 258277489000045, 
                     "enable": true, 
                     "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "get_thing_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000048, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "lose_thing_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000051, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
                 }
             ], 
             "group_id": "WUGy8I28Ee6VmgAVXWe8if", 
@@ -338,6 +366,75 @@
             "p_trigger_id": null, 
             "trigger_id": 362111033, 
             "trigger_name": "end_game", 
+            "valid": true
+        }, 
+        "1032265854": {
+            "action": [
+                {
+                    "action_type": "SELECT_UNIT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 191967331000014, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "GET_UNIT_FROM_EVENT"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "!="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "UNIT_COMPARE", 
+                    "element_id": 191967331000008, 
+                    "enable": true
+                }
+            ], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 191967331000005, 
+                    "enable": true, 
+                    "event_type": "SELECT_UNIT_EVENT"
+                }
+            ], 
+            "group_id": "WUGy8I28Ee6VmgAVXWe8if", 
+            "p_trigger_id": null, 
+            "trigger_id": 1032265854, 
+            "trigger_name": "choose_self", 
             "valid": true
         }, 
         "1053696060": {
@@ -1641,38 +1738,88 @@
                 {
                     "args_list": [
                         {
-                            "arg_type": 100003, 
+                            "arg_type": 100021, 
                             "args_list": [
                                 {
-                                    "arg_type": 100003, 
                                     "args_list": [
-                                        "GAME_STAGE"
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "GAME_STAGE"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "call_rt_index": 0, 
+                                            "op_arg": [], 
+                                            "op_arg_enable": [], 
+                                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "WAITING_QTE"
+                                            ], 
+                                            "sub_type": 1
+                                        }
                                     ], 
-                                    "sub_type": 1
+                                    "condition_type": "STRING_COMPARE", 
+                                    "element_id": 1555783738000031, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "QTE_STATUS"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "call_rt_index": 0, 
+                                            "op_arg": [], 
+                                            "op_arg_enable": [], 
+                                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "!="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "NOT_AVAILABLE"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "STRING_COMPARE", 
+                                    "element_id": 1555783738000364, 
+                                    "enable": true
                                 }
-                            ], 
-                            "call_rt_index": 0, 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "b8fa60008c5111ee843100155d67bc89"
-                        }, 
-                        {
-                            "arg_type": 100035, 
-                            "args_list": [
-                                "=="
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "WAITING_QTE"
                             ], 
                             "sub_type": 1
                         }
                     ], 
-                    "condition_type": "STRING_COMPARE", 
-                    "element_id": 1555783738000031, 
+                    "condition_type": "AND", 
+                    "element_id": 1555783738000358, 
                     "enable": true
                 }
             ], 
@@ -1846,6 +1993,34 @@
                     "element_id": 258277489000045, 
                     "enable": true, 
                     "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "get_thing_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000048, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "lose_thing_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000051, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
                 }
             ], 
             "group_id": "WUGy8I28Ee6VmgAVXWe8if", 
@@ -1870,6 +2045,41 @@
                 "items": [
                     362111033, 
                     "end_game"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1555783738, 
+                    "end_QTE"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    240910446, 
+                    "confirm_QTE"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    258277489, 
+                    "mouse_change_1"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1568313456, 
+                    "mouse_change_2"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1032265854, 
+                    "choose_self"
                 ]
             }, 
             {
@@ -2052,6 +2262,34 @@
                                     1105875064, 
                                     "open"
                                 ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    981049476, 
+                                    "use_stone"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    964317317, 
+                                    "use_judger_permission"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    2021281926, 
+                                    "use_general_permission"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    813351047, 
+                                    "use_lady_permission"
+                                ]
                             }
                         ], 
                         "key": "qoIwAJAxEe6w8wAVXWe8id", 
@@ -2113,6 +2351,20 @@
                             1051017334, 
                             "ghostking_first_meet"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1170468987, 
+                            "plant"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            197464188, 
+                            "tent"
+                        ]
                     }
                 ], 
                 "is_sub_folder": true, 
@@ -2120,32 +2372,96 @@
                 "name": "conversation"
             }, 
             {
-                "__tuple__": true, 
-                "items": [
-                    1555783738, 
-                    "end_QTE"
-                ]
-            }, 
-            {
-                "__tuple__": true, 
-                "items": [
-                    240910446, 
-                    "confirm_QTE"
-                ]
-            }, 
-            {
-                "__tuple__": true, 
-                "items": [
-                    258277489, 
-                    "mouse_change_1"
-                ]
-            }, 
-            {
-                "__tuple__": true, 
-                "items": [
-                    1568313456, 
-                    "mouse_change_2"
-                ]
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1786871935, 
+                            "get_something"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2005139584, 
+                            "confirm_something"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            417755265, 
+                            "lose_something"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            317091970, 
+                            "confirm_lose"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            988811395, 
+                            "get_ghost_soul"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1897017481, 
+                            "lose_ghost_soul"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1981329546, 
+                            "get_ghostking_soul"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1209823371, 
+                            "lose_ghostking_soul"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1042268300, 
+                            "get_plant"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            237650061, 
+                            "lose_plant"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            86945934, 
+                            "get_lady_bless"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            103936143, 
+                            "get_general_bless"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "GGFQwJRBEe6GjQAVXWe8iR", 
+                "name": "things"
             }
         ], 
         "is_sub_folder": false, 

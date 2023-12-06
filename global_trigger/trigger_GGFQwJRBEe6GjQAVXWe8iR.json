@@ -1,0 +1,1592 @@
+{
+    "trigger_dict": {
+        "86945934": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "soul_of_ghostking"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 86945934000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b19bda7f-dfca-4486-ab64-5b7e5aa1c0d4"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "1"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 86945934000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "d1516bd4-c28a-40c8-b637-86f75f050bb4"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 86945934000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b19bda7f-dfca-4486-ab64-5b7e5aa1c0d4"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 86945934000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1642170526
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 86945934000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 86945934, 
+            "trigger_name": "get_lady_bless", 
+            "valid": true
+        }, 
+        "103936143": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "general_bless"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 103936143000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b98c1e66-947b-4839-9aa7-cb97b40266fa"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "1"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 103936143000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "39cabe65-c68e-4a8e-a7ea-4cd8e500584a"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 103936143000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b98c1e66-947b-4839-9aa7-cb97b40266fa"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 103936143000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1510151854
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 103936143000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 103936143, 
+            "trigger_name": "get_general_bless", 
+            "valid": true
+        }, 
+        "237650061": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "spirit_plant"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 237650061000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "ee0c3efb-8f58-4107-ba4e-51e38d64dcb2"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "0"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 237650061000003, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                2084819762
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 237650061000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 237650061, 
+            "trigger_name": "lose_plant", 
+            "valid": true
+        }, 
+        "317091970": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "73328437-8de3-4f8a-9fd6-84f343e9ddd9"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 317091970000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "lose_thing_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 317091970000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "p_trigger_id": null, 
+            "trigger_id": 317091970, 
+            "trigger_name": "confirm_lose", 
+            "valid": true
+        }, 
+        "417755265": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b525743f-0be9-4331-938f-df23a37d192c"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100240, 
+                                    "args_list": [
+                                        "something"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_CUS_EVENT_PARAM"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 417755265000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "73328437-8de3-4f8a-9fd6-84f343e9ddd9"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 417755265000006, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1412343045
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 417755265000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "p_trigger_id": null, 
+            "trigger_id": 417755265, 
+            "trigger_name": "lose_something", 
+            "valid": true
+        }, 
+        "988811395": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "soul_of_ghost"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "soul_of_ghost"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }
+                            ], 
+                            "sub_type": "INT_PLUS_ONE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 988811395000022, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "8963629d-e9ee-4f90-b1dd-3cd5b4835a64"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "soul_of_ghost"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }
+                            ], 
+                            "sub_type": "ANY_VAR_TO_STR"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 988811395000019, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "d41d6cc9-f4c6-4e24-9eec-fa42215e0505"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 988811395000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "8963629d-e9ee-4f90-b1dd-3cd5b4835a64"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 988811395000009, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1184246145
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 988811395000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 988811395, 
+            "trigger_name": "get_ghost_soul", 
+            "valid": true
+        }, 
+        "1042268300": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "spirit_plant"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "spirit_plant"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }
+                            ], 
+                            "sub_type": "INT_PLUS_ONE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1042268300000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "8963629d-e9ee-4f90-b1dd-3cd5b4835a64"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "spirit_plant"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }
+                            ], 
+                            "sub_type": "ANY_VAR_TO_STR"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1042268300000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "3ddbba2f-3fe5-4372-8e3f-4bda5e29eafb"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1042268300000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "ee0c3efb-8f58-4107-ba4e-51e38d64dcb2"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1042268300000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                2116513810
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1042268300000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 1042268300, 
+            "trigger_name": "get_plant", 
+            "valid": true
+        }, 
+        "1209823371": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "soul_of_ghostking"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1209823371000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "084395e6-1ad6-417e-8cc5-60867036f710"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "0"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1209823371000003, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1532997599
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1209823371000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 1209823371, 
+            "trigger_name": "lose_ghostking_soul", 
+            "valid": true
+        }, 
+        "1786871935": {
+            "action": [
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100240, 
+                                                    "args_list": [
+                                                        "something"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_CUS_EVENT_PARAM"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "all"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "STRING_COMPARE", 
+                                    "element_id": 1786871935000022, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_UI_COMP_TEXT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "b525743f-0be9-4331-938f-df23a37d192c"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "\u7075\u754c\u5224\u5b98\u7684\u8bb8\u53ef\n\u7075\u754c\u5c06\u519b\u7684\u8bb8\u53ef\n\u7d2b\u8863\u5973\u58eb\u7684\u8bb8\u53ef"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1786871935000027, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_UI_COMP_TEXT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "b525743f-0be9-4331-938f-df23a37d192c"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100240, 
+                                                    "args_list": [
+                                                        "something"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_CUS_EVENT_PARAM"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1786871935000010, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1786871935000013, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "49b1d5e0-baa9-4f46-8fe7-97cf8b2921ea"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1786871935000004, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1331989568
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1786871935000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 1786871935, 
+            "trigger_name": "get_something", 
+            "valid": true
+        }, 
+        "1897017481": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "soul_of_ghost"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "soul_of_ghost"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "-"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1897017481000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "8963629d-e9ee-4f90-b1dd-3cd5b4835a64"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "soul_of_ghost"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }
+                            ], 
+                            "sub_type": "ANY_VAR_TO_STR"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1897017481000003, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1180668153
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1897017481000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 1897017481, 
+            "trigger_name": "lose_ghost_soul", 
+            "valid": true
+        }, 
+        "1981329546": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "soul_of_ghostking"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1981329546000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "084395e6-1ad6-417e-8cc5-60867036f710"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "1"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1981329546000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "9b779640-21cb-46f2-a592-fe18bb643f55"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1981329546000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "084395e6-1ad6-417e-8cc5-60867036f710"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1981329546000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1006416875
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1981329546000001, 
+                    "enable": true, 
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 1981329546, 
+            "trigger_name": "get_ghostking_soul", 
+            "valid": true
+        }, 
+        "2005139584": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "49b1d5e0-baa9-4f46-8fe7-97cf8b2921ea"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2005139584000010, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "get_thing_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 2005139584000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "GGFQwJRBEe6GjQAVXWe8iR", 
+            "p_trigger_id": null, 
+            "trigger_id": 2005139584, 
+            "trigger_name": "confirm_something", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    1786871935, 
+                    "get_something"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    2005139584, 
+                    "confirm_something"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    417755265, 
+                    "lose_something"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    317091970, 
+                    "confirm_lose"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    988811395, 
+                    "get_ghost_soul"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1897017481, 
+                    "lose_ghost_soul"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1981329546, 
+                    "get_ghostking_soul"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1209823371, 
+                    "lose_ghostking_soul"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1042268300, 
+                    "get_plant"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    237650061, 
+                    "lose_plant"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    86945934, 
+                    "get_lady_bless"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    103936143, 
+                    "get_general_bless"
+                ]
+            }
+        ], 
+        "is_sub_folder": true, 
+        "key": "GGFQwJRBEe6GjQAVXWe8iR", 
+        "name": "things"
+    }
+}

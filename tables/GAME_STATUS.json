@@ -48,21 +48,21 @@
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "POST_1", 
+                "bool", 
+                "false", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "POST_2", 
+                "bool", 
+                "false", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "POST_3", 
+                "bool", 
+                "false", 
                 null
             ], 
             [

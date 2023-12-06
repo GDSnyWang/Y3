@@ -278,49 +278,13 @@
                     "uid": "820354f6-ae75-4e09-a5f5-217dcc7b1fec"
                 }, 
                 {
-                    "children": [], 
-                    "event_list": [], 
-                    "font": {
+                    "alignment": {
                         "__tuple__": true, 
                         "items": [
-                            "MSYH", 
-                            30
+                            2, 
+                            8
                         ]
                     }, 
-                    "name": "exit_text", 
-                    "over_pattern": true, 
-                    "pos": {
-                        "__tuple__": true, 
-                        "items": [
-                            1555.0, 
-                            57.0
-                        ]
-                    }, 
-                    "pos_percent": {
-                        "__tuple__": true, 
-                        "items": [
-                            92.07230784716587, 
-                            5.993690851735016
-                        ]
-                    }, 
-                    "size": {
-                        "__tuple__": true, 
-                        "items": [
-                            317.0, 
-                            79.0
-                        ]
-                    }, 
-                    "text": {
-                        "__tuple__": true, 
-                        "items": [
-                            "\u6309\u4e0bESC\u4ee5\u9000\u51fa", 
-                            false
-                        ]
-                    }, 
-                    "type": 3, 
-                    "uid": "5096771b-2d12-4bdb-ad0a-d5415b2fc3c3"
-                }, 
-                {
                     "children": [], 
                     "event_list": [], 
                     "font": {
@@ -335,14 +299,14 @@
                     "pos": {
                         "__tuple__": true, 
                         "items": [
-                            236.0, 
+                            844.4450073242188, 
                             57.0
                         ]
                     }, 
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
-                            13.973675017319067, 
+                            50.00000043367056, 
                             5.993690851735016
                         ]
                     }, 

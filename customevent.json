@@ -1,14 +1,46 @@
 {
     "conf": {
         "1006416875": [], 
+        "1030896009": [], 
+        "1096322092": [], 
+        "1161436511": [], 
+        "1180668153": [], 
         "1184246145": [], 
+        "1238758626": [], 
+        "1331989568": [
+            [
+                "something", 
+                100003
+            ]
+        ], 
+        "1412343045": [
+            [
+                "something", 
+                100003
+            ]
+        ], 
+        "1510151854": [], 
+        "1518013950": [], 
+        "1532997599": [], 
+        "1547034853": [], 
+        "1642170526": [], 
+        "1882398927": [], 
         "1927188252": [], 
+        "1959874861": [
+            [
+                "character", 
+                100006
+            ]
+        ], 
         "2055225221": [
             [
                 "type", 
                 100003
             ]
-        ]
+        ], 
+        "2066767694": [], 
+        "2084819762": [], 
+        "2116513810": []
     }, 
     "group_info": [
         {
@@ -37,6 +69,125 @@
             "items": [
                 1006416875, 
                 "get_ghostking_soul"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1959874861, 
+                "final_job_done"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1331989568, 
+                "get_something"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1518013950, 
+                "game_over"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1180668153, 
+                "lose_ghost_soul"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1532997599, 
+                "lose_ghostking_soul"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                2066767694, 
+                "lose_spirit_stone"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1412343045, 
+                "lose_something"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1642170526, 
+                "get_lady_bless"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1510151854, 
+                "get_general_bless"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1030896009, 
+                "get_judger_permission"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1238758626, 
+                "get_general_permission"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1882398927, 
+                "get_lady_permission"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1161436511, 
+                "lose_lady_permission"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1547034853, 
+                "lose_judger_permission"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                1096322092, 
+                "lose_general_permission"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                2116513810, 
+                "get_plant"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                2084819762, 
+                "lose_plant"
             ]
         }
     ]

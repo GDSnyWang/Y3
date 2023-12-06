@@ -948,6 +948,1091 @@
                                 {
                                     "children": [
                                         {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "ghost_soul_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "ghost_soul_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 131849, 
+                                            "name": "ghost_soul", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "d41d6cc9-f4c6-4e24-9eec-fa42215e0505", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "8963629d-e9ee-4f90-b1dd-3cd5b4835a64", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_1", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            80.0, 
+                                            172.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            14.787431518071342, 
+                                            60.77737860502332
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "3eab88f8-3cbc-4d8f-a8e7-1b469d312b04"
+                                }, 
+                                {
+                                    "children": [
+                                        {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "ghostking_soul_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "ghostking_soul_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 131849, 
+                                            "name": "ghostking_soul", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "9b779640-21cb-46f2-a592-fe18bb643f55", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "084395e6-1ad6-417e-8cc5-60867036f710", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_2", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            160.0, 
+                                            172.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            29.574863036142684, 
+                                            60.77737860502332
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "1677c77b-ea10-4ac3-bd2c-635a9cd3a377"
+                                }, 
+                                {
+                                    "children": [
+                                        {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "plant_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "plant_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 120234, 
+                                            "name": "plant", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "3ddbba2f-3fe5-4372-8e3f-4bda5e29eafb", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "ee0c3efb-8f58-4107-ba4e-51e38d64dcb2", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_3", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            240.0, 
+                                            172.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            44.362294554214024, 
+                                            60.77737860502332
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "7393f2a4-dbaa-4dce-9b4d-9b946b387fae"
+                                }, 
+                                {
+                                    "children": [
+                                        {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "lady_bless_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "lady_bless_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 131842, 
+                                            "name": "lady_bless", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "d1516bd4-c28a-40c8-b637-86f75f050bb4", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "b19bda7f-dfca-4486-ab64-5b7e5aa1c0d4", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_4", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            320.0, 
+                                            172.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            59.14972607228537, 
+                                            60.77737860502332
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "e895fd2d-6ca7-4999-9713-fb827df4e0fe"
+                                }, 
+                                {
+                                    "children": [
+                                        {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "general_bless_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "general_bless_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 131841, 
+                                            "name": "general_bless", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "39cabe65-c68e-4a8e-a7ea-4cd8e500584a", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "b98c1e66-947b-4839-9aa7-cb97b40266fa", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_5", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            400.0, 
+                                            172.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            73.93715759035672, 
+                                            60.77737860502332
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "5851f8d3-a928-4729-8dcd-a383d8fc75eb"
+                                }, 
+                                {
+                                    "children": [
+                                        {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "spirit_stone_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "spirit_stone_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 106505, 
+                                            "name": "spirit_stone", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.000030517578125, 
+                                                    30.000045776367188
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.00005086263021, 
+                                                    50.00007629394532
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "ffcd2e7b-9314-46f3-9c9c-85850323fc28", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "17bb8e3e-ab36-4aa3-b7d9-377f48e6e41c", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_6", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            80.0, 
+                                            92.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            14.787431518071342, 
+                                            32.508830416640386
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "33ec6043-2899-4025-9fe0-333c7a0e70d8"
+                                }, 
+                                {
+                                    "children": [
+                                        {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "judger_permission_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "judger_permission_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 131335, 
+                                            "name": "judger_permission", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.000030517578125, 
+                                                    30.000045776367188
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.00005086263021, 
+                                                    50.00007629394532
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "3c220b4e-78dc-48f1-8f6b-83bb9620cc4e", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "73a2030b-9e95-435e-bf90-827f5946b8e0", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_7", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            160.0, 
+                                            92.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            29.574863036142684, 
+                                            32.508830416640386
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "fe1c3efe-fa52-4377-a1a5-8bc9cf904721"
+                                }, 
+                                {
+                                    "children": [
+                                        {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "general_permission_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "general_permission_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 131335, 
+                                            "name": "general_permission", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "decf0ba1-132d-4baf-8dab-89b2e05d81f2", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "6d6fd593-4bc8-43e5-81f3-d4c5c058363e", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_8", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            240.0, 
+                                            92.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            44.362294554214024, 
+                                            32.508830416640386
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "47f92057-82ba-4733-9b51-0cad81482d20"
+                                }, 
+                                {
+                                    "children": [
+                                        {
+                                            "children": [], 
+                                            "event_list": [
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "lady_permission_stay", 
+                                                    "sound_id": null, 
+                                                    "type": 24
+                                                }, 
+                                                {
+                                                    "action_list": [], 
+                                                    "enabled": true, 
+                                                    "name": "lady_permission_click", 
+                                                    "sound_id": null, 
+                                                    "type": 2
+                                                }
+                                            ], 
+                                            "image": 131335, 
+                                            "name": "lady_permission", 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    50.0, 
+                                                    50.0
+                                                ]
+                                            }, 
+                                            "type": 4, 
+                                            "uid": "d67f1711-56bb-472c-9120-823875cefdf5", 
+                                            "visible": false
+                                        }, 
+                                        {
+                                            "alignment": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    2, 
+                                                    8
+                                                ]
+                                            }, 
+                                            "children": [], 
+                                            "event_list": [], 
+                                            "font": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "MSYH", 
+                                                    20
+                                                ]
+                                            }, 
+                                            "name": "number", 
+                                            "over_pattern": true, 
+                                            "pos": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    42.0, 
+                                                    15.0
+                                                ]
+                                            }, 
+                                            "pos_percent": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    70.0, 
+                                                    25.0
+                                                ]
+                                            }, 
+                                            "size": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    30.0, 
+                                                    30.0
+                                                ]
+                                            }, 
+                                            "text": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "0", 
+                                                    false
+                                                ]
+                                            }, 
+                                            "type": 3, 
+                                            "uid": "a3c9e60c-495e-4cf5-9c2d-b956813b254a", 
+                                            "visible": false
+                                        }
+                                    ], 
+                                    "event_list": [], 
+                                    "image": 133817, 
+                                    "name": "item_block_9", 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            320.0, 
+                                            92.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            59.14972607228537, 
+                                            32.508830416640386
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            60.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "0d7aa1eb-8c5c-4961-b2ef-5cf8b56efaca"
+                                }, 
+                                {
+                                    "children": [
+                                        {
                                             "alignment": {
                                                 "__tuple__": true, 
                                                 "items": [
@@ -995,474 +2080,11 @@
                                                 ]
                                             }, 
                                             "type": 3, 
-                                            "uid": "8963629d-e9ee-4f90-b1dd-3cd5b4835a64", 
+                                            "uid": "1dc56bca-5578-4a8a-8ea8-984c9100820a", 
                                             "visible": false
                                         }
                                     ], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_1_stay", 
-                                            "sound_id": null, 
-                                            "type": 24
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_1_click", 
-                                            "sound_id": null, 
-                                            "type": 2
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_1", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            80.0, 
-                                            172.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            14.787431518071342, 
-                                            60.77737860502332
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "3eab88f8-3cbc-4d8f-a8e7-1b469d312b04"
-                                }, 
-                                {
-                                    "children": [], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_2_stay", 
-                                            "sound_id": null, 
-                                            "type": 24
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_2_click", 
-                                            "sound_id": null, 
-                                            "type": 2
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_2", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            160.0, 
-                                            172.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            29.574863036142684, 
-                                            60.77737860502332
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "1677c77b-ea10-4ac3-bd2c-635a9cd3a377"
-                                }, 
-                                {
-                                    "children": [
-                                        {
-                                            "alignment": {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    2, 
-                                                    8
-                                                ]
-                                            }, 
-                                            "children": [], 
-                                            "event_list": [], 
-                                            "font": {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    "MSYH", 
-                                                    20
-                                                ]
-                                            }, 
-                                            "name": "number_of_plants", 
-                                            "over_pattern": true, 
-                                            "pos": {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    42.0, 
-                                                    15.0
-                                                ]
-                                            }, 
-                                            "pos_percent": {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    70.0, 
-                                                    25.0
-                                                ]
-                                            }, 
-                                            "size": {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    30.0, 
-                                                    30.0
-                                                ]
-                                            }, 
-                                            "text": {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    "", 
-                                                    false
-                                                ]
-                                            }, 
-                                            "type": 3, 
-                                            "uid": "ee0c3efb-8f58-4107-ba4e-51e38d64dcb2", 
-                                            "visible": false
-                                        }
-                                    ], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_3_stay", 
-                                            "sound_id": null, 
-                                            "type": 24
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_3_click", 
-                                            "sound_id": null, 
-                                            "type": 2
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_3", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            240.0, 
-                                            172.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            44.362294554214024, 
-                                            60.77737860502332
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "7393f2a4-dbaa-4dce-9b4d-9b946b387fae"
-                                }, 
-                                {
-                                    "children": [], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_4_stay", 
-                                            "sound_id": null, 
-                                            "type": 24
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_4_click", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_4", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            320.0, 
-                                            172.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            59.14972607228537, 
-                                            60.77737860502332
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "e895fd2d-6ca7-4999-9713-fb827df4e0fe"
-                                }, 
-                                {
-                                    "children": [], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_5_stay", 
-                                            "sound_id": null, 
-                                            "type": 24
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_5_click", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_5", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            400.0, 
-                                            172.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            73.93715759035672, 
-                                            60.77737860502332
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "5851f8d3-a928-4729-8dcd-a383d8fc75eb"
-                                }, 
-                                {
-                                    "children": [], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_6_stay", 
-                                            "sound_id": null, 
-                                            "type": 24
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_6_click", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_6", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            80.0, 
-                                            92.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            14.787431518071342, 
-                                            32.508830416640386
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "33ec6043-2899-4025-9fe0-333c7a0e70d8"
-                                }, 
-                                {
-                                    "children": [], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_7_stay", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_7_click", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_7", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            160.0, 
-                                            92.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            29.574863036142684, 
-                                            32.508830416640386
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "fe1c3efe-fa52-4377-a1a5-8bc9cf904721"
-                                }, 
-                                {
-                                    "children": [], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_8_stay", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_8_click", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_8", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            240.0, 
-                                            90.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            44.362294554214024, 
-                                            31.802116711930807
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "47f92057-82ba-4733-9b51-0cad81482d20"
-                                }, 
-                                {
-                                    "children": [], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_9_stay", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_9_click", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }
-                                    ], 
-                                    "image": 133817, 
-                                    "name": "item_block_9", 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            320.0, 
-                                            92.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            59.14972607228537, 
-                                            32.508830416640386
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            60.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "0d7aa1eb-8c5c-4961-b2ef-5cf8b56efaca"
-                                }, 
-                                {
-                                    "children": [], 
-                                    "event_list": [
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_10_stay", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }, 
-                                        {
-                                            "action_list": [], 
-                                            "enabled": true, 
-                                            "name": "item_block_10_click", 
-                                            "sound_id": null, 
-                                            "type": -1
-                                        }
-                                    ], 
+                                    "event_list": [], 
                                     "image": 133817, 
                                     "name": "item_block_10", 
                                     "pos": {

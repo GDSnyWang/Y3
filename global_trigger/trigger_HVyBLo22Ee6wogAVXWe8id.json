@@ -101,13 +101,6 @@
                             {
                                 "__tuple__": true, 
                                 "items": [
-                                    514748531, 
-                                    "lady"
-                                ]
-                            }, 
-                            {
-                                "__tuple__": true, 
-                                "items": [
                                     1538846836, 
                                     "judger"
                                 ]
@@ -117,6 +110,13 @@
                                 "items": [
                                     834244725, 
                                     "general"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    835465338, 
+                                    "lady"
                                 ]
                             }
                         ], 

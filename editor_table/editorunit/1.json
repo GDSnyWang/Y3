@@ -155,6 +155,17 @@
     "keep_target": true, 
     "key": 1, 
     "kv": {
+        "QTE_offset": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "QTE_offset", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 12, 
+            "type": 0, 
+            "value": "\u6b63\u5e38"
+        }, 
         "general_bless": {
             "annotation": "", 
             "desc": "", 

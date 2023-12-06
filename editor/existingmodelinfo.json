@@ -3419,7 +3419,7 @@
   "__tuple__": true, 
   "items": [
    10015, 
-   "camp_region", 
+   "tent_region", 
    4096
   ]
  }, 
@@ -3442,14 +3442,6 @@
  {
   "__tuple__": true, 
   "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    10019, 
    "main_region", 
    4096
@@ -3461,6 +3453,46 @@
    10020, 
    "\u5c40\u90e8\u96fe", 
    1048576
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10021, 
+   "gate_region", 
+   4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10022, 
+   "post_region_1", 
+   4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10023, 
+   "post_region_2", 
+   4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10024, 
+   "post_region_3", 
+   4096
   ]
  }
 ]

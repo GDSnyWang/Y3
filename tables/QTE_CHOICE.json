@@ -182,8 +182,8 @@
             ], 
             [
                 "SELECT_3", 
-                "[\u4efb\u52a1\u5b8c\u6210] \u4f60\u7684\u4efb\u52a1\u6211\u5b8c\u6210\u4e86\u3002", 
-                "[\u4efb\u52a1\u5931\u8d25] \u4f60\u7684\u4efb\u52a1\u6211\u505a\u4e0d\u5230\u3002", 
+                "\u4f60\u7684\u4efb\u52a1\u6211\u5b8c\u6210\u4e86\u3002", 
+                "\u4f60\u7684\u4efb\u52a1\u6211\u505a\u4e0d\u5230\u3002", 
                 null, 
                 null, 
                 null, 

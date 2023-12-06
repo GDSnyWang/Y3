@@ -134,7 +134,104 @@
             "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
             "p_trigger_id": null, 
             "trigger_id": 723243127, 
-            "trigger_name": "get_QTE", 
+            "trigger_name": "get_QTE_STATUS", 
+            "valid": true
+        }, 
+        "1001848968": {
+            "action": [
+                {
+                    "action_type": "CREATE_PROJECTILE_NEW", 
+                    "args_list": [
+                        {
+                            "arg_type": 100062, 
+                            "args_list": [
+                                134255691
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100023, 
+                                    "args_list": [
+                                        10022
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "ROUND_AREA_C_POINT"
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 981049476000136, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                99999999999.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                200.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                33
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1001848968000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 1001848968, 
+            "trigger_name": "ghost_fire_test", 
             "valid": true
         }, 
         "1111933046": {
@@ -201,6 +298,134 @@
             "p_trigger_id": null, 
             "trigger_id": 1111933046, 
             "trigger_name": "get_GAME_STAGE", 
+            "valid": true
+        }, 
+        "1140281469": {
+            "action": [
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "status\uff1a"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                4
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "status"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }
+                            ], 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\uff0cphase\uff1a"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                4
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "phase"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                true, 
+                                true, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "STR_JOIN"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 723243127000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                59
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1140281469000003, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 1140281469, 
+            "trigger_name": "get_npc_status", 
             "valid": true
         }, 
         "1592946750": {
@@ -975,7 +1200,21 @@
                 "__tuple__": true, 
                 "items": [
                     723243127, 
-                    "get_QTE"
+                    "get_QTE_STATUS"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1140281469, 
+                    "get_npc_status"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1001848968, 
+                    "ghost_fire_test"
                 ]
             }
         ], 

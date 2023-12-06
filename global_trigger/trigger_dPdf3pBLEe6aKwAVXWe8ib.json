@@ -180,6 +180,34 @@
                             1105875064, 
                             "open"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            981049476, 
+                            "use_stone"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            964317317, 
+                            "use_judger_permission"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2021281926, 
+                            "use_general_permission"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            813351047, 
+                            "use_lady_permission"
+                        ]
                     }
                 ], 
                 "is_sub_folder": true, 

@@ -2353,7 +2353,7 @@
                                             "args_list": [], 
                                             "op_arg": [], 
                                             "op_arg_enable": [], 
-                                            "sub_type": "d2a44791933711eeaa2100155d67bc89"
+                                            "sub_type": "4ab3640f942711ee89f200155d67bc89"
                                         }
                                     ], 
                                     "bp": false, 
@@ -2527,13 +2527,6 @@
                     {
                         "__tuple__": true, 
                         "items": [
-                            514748531, 
-                            "lady"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
                             1538846836, 
                             "judger"
                         ]
@@ -2543,6 +2536,13 @@
                         "items": [
                             834244725, 
                             "general"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            835465338, 
+                            "lady"
                         ]
                     }
                 ], 

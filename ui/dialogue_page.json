@@ -143,7 +143,7 @@
                     "text": {
                         "__tuple__": true, 
                         "items": [
-                            "\u8fdd\u53cd\u7ea6\u5b9a\u53bb\u4e86\u90e8\u5206\u4e03\u4e8c\u4e07\u4eba\u53c8\u53bb\u4e86\u6211\u53ef\u4ee5\u8ba9\u53d1\u8868\u5374\u4e3a\u4e86\u5f00\u53d1\u7ecf\u9a8cu\u5947\u602a\u4e86\u5f00\u53d1\u677fv\u8138\u770b\u8d77\u6765\u6b38\u53d1\u79cb\u6708\u65e0\u8fb9\u7236\u4eb2\u51bd\u738b\u5e9c\u5982\u679c", 
+                            "", 
                             false
                         ]
                     }, 
@@ -179,14 +179,14 @@
                     "pos": {
                         "__tuple__": true, 
                         "items": [
-                            1263.0, 
+                            1291.0, 
                             166.0
                         ]
                     }, 
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
-                            84.71449939298003, 
+                            86.59257222196138, 
                             29.856115107913666
                         ]
                     }, 
@@ -200,7 +200,7 @@
                     "text": {
                         "__tuple__": true, 
                         "items": [
-                            "\u6309\u4e0bEnter\u6216\u70b9\u51fb\u4ee5\u7ee7\u7eed  >>>", 
+                            "\u6309\u4e0b\u7a7a\u683c\u6216\u70b9\u51fb\u4ee5\u7ee7\u7eed  >>>", 
                             false
                         ]
                     }, 
@@ -246,14 +246,14 @@
                     "pos": {
                         "__tuple__": true, 
                         "items": [
-                            1225.0, 
+                            1252.0, 
                             166.0
                         ]
                     }, 
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
-                            82.1656862679339, 
+                            83.9766850673088, 
                             29.856115107913666
                         ]
                     }, 
@@ -267,7 +267,7 @@
                     "text": {
                         "__tuple__": true, 
                         "items": [
-                            "\u6309\u4e0bEnter\u6216\u70b9\u51fb\u4ee5\u8fdb\u884c\u9009\u62e9  >>>", 
+                            "\u6309\u4e0b\u7a7a\u683c\u6216\u70b9\u51fb\u4ee5\u8fdb\u884c\u9009\u62e9  >>>", 
                             false
                         ]
                     }, 
