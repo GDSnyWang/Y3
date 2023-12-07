@@ -10,14 +10,6 @@
  {
   "__tuple__": true, 
   "items": [
-   3, 
-   "\u7075\u754c\u4e4b\u95e8", 
-   16384
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    1, 
    "stone", 
    16384
@@ -3458,14 +3450,6 @@
  {
   "__tuple__": true, 
   "items": [
-   9999, 
-   "\u521d\u59cb\u955c\u5934", 
-   32768
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    10021, 
    "gate_region", 
    4096
@@ -3493,6 +3477,94 @@
    10024, 
    "post_region_3", 
    4096
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10025, 
+   "gate_point", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10026, 
+   "lady_post_1", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10027, 
+   "lady_post_2", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10028, 
+   "lady_post_3", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10029, 
+   "general_post_1", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10030, 
+   "general_post_2", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10031, 
+   "general_post_3", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10032, 
+   "judger_post_1", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10033, 
+   "judger_post_2", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10034, 
+   "judger_post_3", 
+   1024
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
   ]
  }
 ]

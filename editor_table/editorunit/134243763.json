@@ -14,13 +14,13 @@
     "alarm_range": 8.0, 
     "angle_tolerance": 1, 
     "armor_type": 20000, 
-    "attack_interval": 1, 
+    "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
     "attack_phy": 100.0, 
     "attack_phy_grow": 0.0, 
-    "attack_range": 10, 
+    "attack_range": 10.0, 
     "attack_range_grow": 0, 
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
@@ -40,8 +40,8 @@
     }, 
     "billboard_height_offset": 0, 
     "billboard_name_font": "DFPYuanW7-GB", 
-    "billboard_scale_x": 1, 
-    "billboard_scale_y": 1, 
+    "billboard_scale_x": 1.0, 
+    "billboard_scale_y": 1.0, 
     "blood_bar": 0, 
     "blood_show_type": 0, 
     "body_size": 1.0, 
@@ -240,6 +240,17 @@
             "type": 2, 
             "value": 1
         }, 
+        "release": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 4, 
+            "key": "release", 
+            "prop_cls": "PBool", 
+            "remark": "", 
+            "sort": 9, 
+            "type": 3, 
+            "value": false
+        }, 
         "status": {
             "annotation": "", 
             "desc": "", 
@@ -319,24 +330,21 @@
     "show_y3_extra_info": false, 
     "silver coin": 0, 
     "simple_common_atk": {
-        "ability_animations": {
-            "__tuple__": true, 
-            "items": [
-                "attack1"
-            ]
-        }, 
+        "ability_animations": [
+            "attack1"
+        ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
+        "attack_interval": 1.0, 
+        "attack_range": 10.0, 
         "attack_trajectory": {
             "effect": 0, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin"
+            "socket": "origin", 
+            "target_socket": "root"
         }, 
-        "cast_effect_list": {
-            "__tuple__": true, 
-            "items": []
-        }, 
+        "cast_effect_list": [], 
         "cast_sound": 0, 
         "critical_anim": "attack1", 
         "damage": 100.0, 
@@ -350,6 +358,7 @@
             "socket": "origin"
         }, 
         "hit_sound": 0, 
+        "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
         "trajectory_radian": 1.0, 

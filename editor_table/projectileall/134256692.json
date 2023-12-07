@@ -143,11 +143,11 @@
     "icon": 100005, 
     "key": 134256692, 
     "kv": {}, 
-    "max_duration": 60, 
+    "max_duration": 100000.0, 
     "move_channel": 0, 
     "move_limitation": 1, 
     "name": 1805975752, 
-    "sfx_loop": false, 
+    "sfx_loop": true, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []

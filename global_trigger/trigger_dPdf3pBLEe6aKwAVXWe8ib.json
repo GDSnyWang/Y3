@@ -1,8 +1,215 @@
 {
-    "trigger_dict": {}, 
+    "trigger_dict": {
+        "535232656": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "9d29602a-45a5-4b7e-811f-b08be4858cd4"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 535232656000006, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "UNIT_RELEASE_COMMAND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100216, 
+                            "args_list": [], 
+                            "sub_type": "UNIT_COMMAND_STOP"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000107, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_ROLE_ALL_GAME_FUNC_ENABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100253, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000073, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                48
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 535232656000003, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 
+            "p_trigger_id": null, 
+            "trigger_id": 535232656, 
+            "trigger_name": "display", 
+            "valid": true
+        }, 
+        "1560887439": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "9d29602a-45a5-4b7e-811f-b08be4858cd4"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1560887439000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_ROLE_ALL_GAME_FUNC_ENABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100253, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000073, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_button_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1560887439000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 
+            "p_trigger_id": null, 
+            "trigger_id": 1560887439, 
+            "trigger_name": "exit", 
+            "valid": true
+        }
+    }, 
     "trigger_group_info": {
         "_trigger_group_": true, 
         "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    535232656, 
+                    "display"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1560887439, 
+                    "exit"
+                ]
+            }, 
             {
                 "_trigger_group_": true, 
                 "group": [
@@ -165,20 +372,6 @@
                         "items": [
                             1951228001, 
                             "lady_page"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            1228017757, 
-                            "exit"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            1105875064, 
-                            "open"
                         ]
                     }, 
                     {

@@ -66,21 +66,15 @@
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
+                "READY_TO_GO", 
+                "bool", 
+                "false", 
                 null
             ], 
             [
-                null, 
-                null, 
-                null, 
-                null
-            ], 
-            [
-                null, 
-                null, 
-                null, 
+                "GHOSTKING_RELEASE", 
+                "bool", 
+                "false", 
                 null
             ], 
             [

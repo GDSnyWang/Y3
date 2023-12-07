@@ -92,7 +92,7 @@
                             "text": {
                                 "__tuple__": true, 
                                 "items": [
-                                    "PLAYER", 
+                                    "\u53ef\u601c\u7684\u6d3b\u4eba", 
                                     false
                                 ]
                             }, 
@@ -790,6 +790,15 @@
                                 "items": [
                                     "MSYH", 
                                     30
+                                ]
+                            }, 
+                            "font_color": {
+                                "__tuple__": true, 
+                                "items": [
+                                    255, 
+                                    255, 
+                                    255, 
+                                    255
                                 ]
                             }, 
                             "name": "QTE_status", 

@@ -1,5 +1,123 @@
 {
     "trigger_dict": {
+        "216080537": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "9b35535e94ec11ee9b5b00155d67bc89"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 216080537000054, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                50
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 216080537000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 216080537, 
+            "trigger_name": "move_status", 
+            "valid": true
+        }, 
+        "362111033": {
+            "action": [
+                {
+                    "action_type": "EXIT_GAME", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 362111033000005, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "GAME_STAGE"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "SHUT_DOWN"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "7a2cfc0f8c4311ee8d8e00155d67bc89"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 362111033000009, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 362111033000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "p_trigger_id": null, 
+            "trigger_id": 362111033, 
+            "trigger_name": "end_game", 
+            "valid": true
+        }, 
         "364822600": {
             "action": [
                 {
@@ -69,6 +187,63 @@
             "p_trigger_id": null, 
             "trigger_id": 364822600, 
             "trigger_name": "UI_event_test", 
+            "valid": true
+        }, 
+        "669360282": {
+            "action": [
+                {
+                    "action_type": "SET_ROLE_ALL_GAME_FUNC_ENABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100253, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000073, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                38
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 669360282000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 669360282, 
+            "trigger_name": "forbid_move", 
             "valid": true
         }, 
         "723243127": {
@@ -232,6 +407,63 @@
             "p_trigger_id": null, 
             "trigger_id": 1001848968, 
             "trigger_name": "ghost_fire_test", 
+            "valid": true
+        }, 
+        "1004953755": {
+            "action": [
+                {
+                    "action_type": "SET_ROLE_ALL_GAME_FUNC_ENABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100253, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000073, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                37
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1004953755000010, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 1004953755, 
+            "trigger_name": "allow_move", 
             "valid": true
         }, 
         "1111933046": {
@@ -1215,6 +1447,34 @@
                 "items": [
                     1001848968, 
                     "ghost_fire_test"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    362111033, 
+                    "end_game"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    216080537, 
+                    "move_status"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    669360282, 
+                    "forbid_move"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1004953755, 
+                    "allow_move"
                 ]
             }
         ], 

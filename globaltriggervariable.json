@@ -20,6 +20,25 @@
                 "unit": 0
             }
         }, 
+        "72450207": {
+            "variable_dict": {
+                "BOOLEAN": {}, 
+                "STRING": {
+                    "job1": "", 
+                    "job2": "", 
+                    "job3": ""
+                }, 
+                "UNIT_ENTITY": {
+                    "character": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "character": 0, 
+                "job1": 0, 
+                "job2": 0, 
+                "job3": 0
+            }
+        }, 
         "72462362": {
             "variable_dict": {
                 "INTEGER": {
@@ -274,6 +293,20 @@
                 "unit": 0
             }
         }, 
+        "601370776": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp_1": -1, 
+                    "temp_2": -1, 
+                    "temp_3": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp_1": 0, 
+                "temp_2": 0, 
+                "temp_3": 0
+            }
+        }, 
         "659791978": {
             "variable_dict": {
                 "BOOLEAN": {
@@ -322,6 +355,16 @@
                 "unit": 0
             }
         }, 
+        "700801103": {
+            "variable_dict": {
+                "UNIT_ENTITY": {
+                    "temp": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "718082063": {
             "variable_dict": {
                 "INTEGER": {
@@ -362,6 +405,18 @@
                 "now_column": 0, 
                 "now_row": 0, 
                 "slot": 0
+            }
+        }, 
+        "780017824": {
+            "variable_dict": {
+                "INTEGER": {
+                    "count": 0, 
+                    "temp": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "count": 0, 
+                "temp": 0
             }
         }, 
         "786112514": {

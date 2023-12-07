@@ -1,12 +1,19 @@
 {
+    "1": 1, 
+    "4": 0.8, 
+    "5": 1, 
+    "6": 0, 
+    "15": 400.0, 
+    "16": 800.0, 
+    "100": -90.0, 
     "_custom_": true, 
-    "_ref_": 134248803, 
+    "_ref_": 134225602, 
     "async_effect": false, 
-    "desc": -257844810, 
-    "description": -257844810, 
+    "desc": -476717967, 
+    "description": -476717967, 
     "effect_destroy_way_is_immediately": false, 
     "effect_foes": [
-        103187, 
+        100707, 
         {
             "__tuple__": true, 
             "items": [
@@ -18,7 +25,7 @@
         {
             "__tuple__": true, 
             "items": [
-                0.0, 
+                90.0, 
                 0.0, 
                 0.0
             ]
@@ -26,9 +33,9 @@
         {
             "__tuple__": true, 
             "items": [
-                1.0, 
-                1.0, 
-                1.0
+                0.8, 
+                0.8, 
+                0.8
             ]
         }, 
         1.0, 
@@ -72,7 +79,7 @@
         }
     ], 
     "effect_friend": [
-        103187, 
+        100707, 
         {
             "__tuple__": true, 
             "items": [
@@ -84,7 +91,7 @@
         {
             "__tuple__": true, 
             "items": [
-                0.0, 
+                90.0, 
                 0.0, 
                 0.0
             ]
@@ -92,9 +99,9 @@
         {
             "__tuple__": true, 
             "items": [
-                1.0, 
-                1.0, 
-                1.0
+                0.8, 
+                0.8, 
+                0.8
             ]
         }, 
         1.0, 
@@ -137,13 +144,13 @@
             "use_base_tint_color": false
         }
     ], 
-    "icon": 100005, 
-    "key": 134255691, 
+    "icon": 100000, 
+    "key": 134225602, 
     "kv": {}, 
     "max_duration": 100000.0, 
     "move_channel": 0, 
     "move_limitation": 1, 
-    "name": -1091884723, 
+    "name": -942714706, 
     "sfx_loop": true, 
     "sound_event_list": {
         "__tuple__": true, 
@@ -154,5 +161,5 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "uid": "134255691"
+    "uid": "134225602"
 }
