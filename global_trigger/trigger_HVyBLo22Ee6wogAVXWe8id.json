@@ -32,8 +32,15 @@
                     {
                         "__tuple__": true, 
                         "items": [
-                            431956027, 
-                            "finish_QTE"
+                            1272594592, 
+                            "start_main"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            720277665, 
+                            "start_select"
                         ]
                     }
                 ], 

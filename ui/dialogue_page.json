@@ -274,6 +274,64 @@
                     "type": 3, 
                     "uid": "fb9b47ca-0b24-4b1a-b289-d407161723ac", 
                     "visible": false
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "exit_text_stay", 
+                            "sound_id": null, 
+                            "type": 24
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "exit_text_leave", 
+                            "sound_id": null, 
+                            "type": 25
+                        }, 
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "exit_text_click", 
+                            "sound_id": null, 
+                            "type": 2
+                        }
+                    ], 
+                    "name": "exit_text", 
+                    "over_pattern": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            1375.0, 
+                            488.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            92.22679070890541, 
+                            87.76978417266187
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            231.0, 
+                            48.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u6309\u4e0bESC\u4ee5\u9000\u51fa", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "b2955121-75a8-4b5c-b350-9a6f2ec71eb8"
                 }
             ], 
             "event_list": [], 

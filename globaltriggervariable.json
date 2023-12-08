@@ -51,6 +51,16 @@
                 "rindex": 0
             }
         }, 
+        "96207015": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "132288546": {
             "variable_dict": {
                 "ABILITY": {
@@ -307,6 +317,16 @@
                 "temp_3": 0
             }
         }, 
+        "632586406": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "659791978": {
             "variable_dict": {
                 "BOOLEAN": {
@@ -383,6 +403,24 @@
                 "n": 0, 
                 "player": 0, 
                 "unit": 0
+            }
+        }, 
+        "720277665": {
+            "variable_dict": {
+                "FLOAT": {
+                    "green": 800.0, 
+                    "red": 800.0
+                }, 
+                "STRING": {
+                    "option_1": "", 
+                    "option_2": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "green": 0, 
+                "option_1": 0, 
+                "option_2": 0, 
+                "red": 0
             }
         }, 
         "734306311": {
@@ -536,6 +574,16 @@
                 "type": 0
             }
         }, 
+        "944824492": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "981049476": {
             "variable_dict": {
                 "UNIT_ENTITY": {}
@@ -604,6 +652,28 @@
                 "player": 0, 
                 "t": 0, 
                 "unit": 0
+            }
+        }, 
+        "1272594592": {
+            "variable_dict": {
+                "FLOAT": {
+                    "blue": 800.0, 
+                    "green": 800.0, 
+                    "red": 800.0
+                }, 
+                "STRING": {
+                    "option_1": "", 
+                    "option_2": "", 
+                    "option_3": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "blue": 0, 
+                "green": 0, 
+                "option_1": 0, 
+                "option_2": 0, 
+                "option_3": 0, 
+                "red": 0
             }
         }, 
         "1302442017": {
@@ -834,6 +904,12 @@
                 "unit": 0
             }
         }, 
+        "1631764651": {
+            "variable_dict": {
+                "NEW_TIMER": {}
+            }, 
+            "variable_length_dict": {}
+        }, 
         "1665630250": {
             "variable_dict": {
                 "FLOAT": {
@@ -895,6 +971,16 @@
                 "red_other": 0, 
                 "red_time": 0, 
                 "success": 0
+            }
+        }, 
+        "1784471714": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
             }
         }, 
         "1800700025": {
@@ -1008,6 +1094,12 @@
                 "success": 0
             }
         }, 
+        "1949868195": {
+            "variable_dict": {
+                "FLOAT": {}
+            }, 
+            "variable_length_dict": {}
+        }, 
         "2010271789": {
             "variable_dict": {
                 "FLOAT": {
@@ -1075,13 +1167,20 @@
     }, 
     "variable_comments": {}, 
     "variable_dict": {
+        "BOOLEAN": {
+            "NOT_FIRST": true, 
+            "STILL_DIALOGUING": false
+        }, 
         "INTEGER": {
-            "GLOBAL_BAG_MAX_NUM": 0
+            "GLOBAL_BAG_MAX_NUM": 0, 
+            "sound": 50
         }, 
         "NEW_TIMER": {
             "main_qte": -1, 
             "select_qte": -1, 
-            "single_qte": -1
+            "single_qte": -1, 
+            "sound_long_down": -1, 
+            "sound_long_up": -1
         }, 
         "PLAYER_GROUP": {}, 
         "POINT": {
@@ -1093,6 +1192,9 @@
                     0
                 ]
             }
+        }, 
+        "SOUND_ENTITY": {
+            "main_bgm": 0
         }, 
         "STRING": {
             "QTE_RESULT": "UNKNOWN"
@@ -1169,6 +1271,48 @@
                 "DIALOGUE_CHARACTER", 
                 "DIALOGUE_CHARACTER"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "STILL_DIALOGUING", 
+                "STILL_DIALOGUING"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "NOT_FIRST", 
+                "NOT_FIRST"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "main_bgm", 
+                "main_bgm"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "sound", 
+                "sound"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "sound_long_up", 
+                "sound_long_up"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "sound_long_down", 
+                "sound_long_down"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -1176,10 +1320,16 @@
         "GAME_STATUS": 0, 
         "GHOSTKING": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
+        "NOT_FIRST": 0, 
         "QTE_RESULT": 0, 
+        "STILL_DIALOGUING": 0, 
         "UI_Manager": 0, 
+        "main_bgm": 0, 
         "main_qte": 0, 
         "select_qte": 0, 
-        "single_qte": 0
+        "single_qte": 0, 
+        "sound": 0, 
+        "sound_long_down": 0, 
+        "sound_long_up": 0
     }
 }

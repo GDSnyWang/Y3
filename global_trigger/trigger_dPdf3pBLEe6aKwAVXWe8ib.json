@@ -79,10 +79,81 @@
                     "bp": false, 
                     "element_id": 513507401000073, 
                     "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "04104968-7978-440e-bc61-bb9b8118f6ce"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "GAME_STAGE"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "CHECK"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 535232656000115, 
+                    "enable": true
                 }
             ], 
             "call_enabled": true, 
-            "condition": [], 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        "04104968-7978-440e-bc61-bb9b8118f6ce"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "GAME_STAGE"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_STRING_TABLE_VAR_1D"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "RUNNING"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "STRING_COMPARE", 
+                    "element_id": 535232656000110, 
+                    "enable": true
+                }
+            ], 
             "enabled": true, 
             "event": [
                 {
@@ -98,6 +169,20 @@
                     "element_id": 535232656000003, 
                     "enable": true, 
                     "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "bag_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 535232656000118, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
                 }
             ], 
             "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 
@@ -165,10 +250,81 @@
                     "bp": false, 
                     "element_id": 513507401000073, 
                     "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "04104968-7978-440e-bc61-bb9b8118f6ce"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "GAME_STAGE"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "RUNNING"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1560887439000076, 
+                    "enable": true
                 }
             ], 
             "call_enabled": true, 
-            "condition": [], 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        "04104968-7978-440e-bc61-bb9b8118f6ce"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "GAME_STAGE"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_STRING_TABLE_VAR_1D"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "CHECK"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "STRING_COMPARE", 
+                    "element_id": 535232656000110, 
+                    "enable": true
+                }
+            ], 
             "enabled": true, 
             "event": [
                 {
@@ -184,6 +340,20 @@
                     "element_id": 1560887439000001, 
                     "enable": true, 
                     "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1560887439000079, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
                 }
             ], 
             "group_id": "dPdf3pBLEe6aKwAVXWe8ib", 

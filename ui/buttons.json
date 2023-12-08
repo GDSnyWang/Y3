@@ -1,0 +1,259 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 106354, 
+                    "name": "bag", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            50.0, 
+                            50.0
+                        ]
+                    }, 
+                    "rotation": 315.0, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            80.0, 
+                            80.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "34deceb2-4d89-41f0-89df-c3ab98337685"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "bag_text", 
+                    "over_pattern": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            109.0, 
+                            -4.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            109.00000000000001, 
+                            -4.0
+                        ]
+                    }, 
+                    "rotation": 315.0, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            50.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u80cc\u5305(B)", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "d7d5f8c7-e015-4c36-bfc1-a2ad12fe7a0e"
+                }
+            ], 
+            "event_list": [
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "bag_stay", 
+                    "sound_id": null, 
+                    "type": 24
+                }, 
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "bag_leave", 
+                    "sound_id": null, 
+                    "type": 25
+                }, 
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "bag_click", 
+                    "sound_id": null, 
+                    "type": 2
+                }
+            ], 
+            "image": 132068, 
+            "name": "bg1", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    245.0, 
+                    135.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    12.760416666666666, 
+                    12.5
+                ]
+            }, 
+            "rotation": 45.0, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    100.0, 
+                    100.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "1849e86a-a0c0-41d9-91d4-a25775e0dee3"
+        }, 
+        {
+            "children": [
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 108430, 
+                    "name": "exit", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            52.0, 
+                            42.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            52.0, 
+                            42.0
+                        ]
+                    }, 
+                    "rotation": 315.0, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            70.0, 
+                            70.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "2be667b9-d251-45d9-b13a-c3f89f6d7075"
+                }, 
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "ESC_text", 
+                    "over_pattern": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            106.85279846191406, 
+                            -6.1471710205078125
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            106.85279846191406, 
+                            -6.1471710205078125
+                        ]
+                    }, 
+                    "rotation": 315.0, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            50.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u6682\u505c(ESC)", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "1d160972-6996-42b3-8fad-0eff5f043c1f"
+                }
+            ], 
+            "event_list": [
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "all_exit_stay", 
+                    "sound_id": null, 
+                    "type": 24
+                }, 
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "all_exit_leave", 
+                    "sound_id": null, 
+                    "type": 25
+                }, 
+                {
+                    "action_list": [], 
+                    "enabled": true, 
+                    "name": "all_exit_click", 
+                    "sound_id": null, 
+                    "type": 2
+                }
+            ], 
+            "image": 132068, 
+            "name": "bg2", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    125.0, 
+                    135.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    6.510416666666667, 
+                    12.5
+                ]
+            }, 
+            "rotation": 45.0, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    100.0, 
+                    100.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "ca0cc84b-bab2-4941-9cee-3c7892a3e66b"
+        }
+    ], 
+    "name": "buttons", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "ed02e003-1141-4e15-9117-a72aec6ed43e", 
+    "visible": true, 
+    "zorder": 400
+}

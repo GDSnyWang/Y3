@@ -16,57 +16,8 @@
                     {
                         "__tuple__": true, 
                         "items": [
-                            1555783738, 
-                            "end_QTE"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            240910446, 
-                            "confirm_QTE"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            258277489, 
-                            "mouse_change_1"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            1568313456, 
-                            "mouse_change_2"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
                             1032265854, 
                             "choose_self"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            601370776, 
-                            "gate_open"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            1155051676, 
-                            "game_win"
-                        ]
-                    }, 
-                    {
-                        "__tuple__": true, 
-                        "items": [
-                            1138278557, 
-                            "game_lose"
                         ]
                     }, 
                     {
@@ -75,6 +26,174 @@
                             440500382, 
                             "final_job_done"
                         ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1784471714, 
+                            "exit_dialogue"
+                        ]
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1949868195, 
+                                    "sound_up"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    781447332, 
+                                    "sound_long_up"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1788121253, 
+                                    "sound_down"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1621532838, 
+                                    "sound_long_down"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    16965801, 
+                                    "end_up"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    370053290, 
+                                    "end_down"
+                                ]
+                            }
+                        ], 
+                        "key": "HPt4j5XREe6nyQAVXWe8iS", 
+                        "name": "sound"
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    601370776, 
+                                    "gate_open"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1155051676, 
+                                    "game_win"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1138278557, 
+                                    "game_lose"
+                                ]
+                            }
+                        ], 
+                        "key": "KPy+YZXREe6M8AAVXWe8iT", 
+                        "name": "game_end"
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1555783738, 
+                                    "end_QTE"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    240910446, 
+                                    "confirm_QTE"
+                                ]
+                            }
+                        ], 
+                        "key": "PTBnrpXREe6j+AAVXWe8iS", 
+                        "name": "QTE"
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    258277489, 
+                                    "mouse_change_1"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1568313456, 
+                                    "mouse_change_2"
+                                ]
+                            }
+                        ], 
+                        "key": "Sd3zEZXREe6QPwAVXWe8iY", 
+                        "name": "mouse"
+                    }, 
+                    {
+                        "_trigger_group_": true, 
+                        "group": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    632586406, 
+                                    "pause"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    96207015, 
+                                    "end_pause"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1707860136, 
+                                    "exit_game"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1631764651, 
+                                    "teach"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    944824492, 
+                                    "end_teach"
+                                ]
+                            }
+                        ], 
+                        "key": "Xd-MD5XTEe6NFgAVXWe8iQ", 
+                        "name": "pause"
                     }
                 ], 
                 "is_sub_folder": true, 

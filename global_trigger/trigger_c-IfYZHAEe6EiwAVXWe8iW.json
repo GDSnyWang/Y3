@@ -3,6 +3,60 @@
         "273731689": {
             "action": [
                 {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b2955121-75a8-4b5c-b350-9a6f2ec71eb8"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 191967331000230, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "BOOLEAN", 
+                                    "NOT_FIRST"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 191967331000244, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
                         {
@@ -6038,6 +6092,13 @@
                                                                                 "\u5c0f\u9b3c\u7684\u7075\u9b42"
                                                                             ], 
                                                                             "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                false
+                                                                            ], 
+                                                                            "sub_type": 1
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
@@ -8979,6 +9040,13 @@
                                                                                 "\u5c0f\u9b3c\u7684\u7075\u9b42"
                                                                             ], 
                                                                             "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                false
+                                                                            ], 
+                                                                            "sub_type": 1
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
@@ -10585,6 +10653,13 @@
                                                                             "arg_type": 100003, 
                                                                             "args_list": [
                                                                                 "\u9b3c\u738b\u7684\u7075\u9b42"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                false
                                                                             ], 
                                                                             "sub_type": 1
                                                                         }
@@ -14100,6 +14175,13 @@
                                                                             "arg_type": 100003, 
                                                                             "args_list": [
                                                                                 "\u6444\u9b42\u8349"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                false
                                                                             ], 
                                                                             "sub_type": 1
                                                                         }
@@ -25327,6 +25409,60 @@
         "1473736812": {
             "action": [
                 {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b2955121-75a8-4b5c-b350-9a6f2ec71eb8"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 191967331000230, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "BOOLEAN", 
+                                    "NOT_FIRST"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 191967331000244, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
                         {
@@ -35321,7 +35457,7 @@
                                                                 {
                                                                     "arg_type": 100003, 
                                                                     "args_list": [
-                                                                        "SELECT_5"
+                                                                        "SELECT_6"
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }

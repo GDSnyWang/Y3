@@ -1,0 +1,588 @@
+{
+    "trigger_dict": {
+        "258277489": {
+            "action": [
+                {
+                    "action_type": "SET_ROLE_CURSOR_STATE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100289, 
+                            "args_list": [
+                                "nm_hover"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100288, 
+                            "args_list": [
+                                3000011
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 258277489000003, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "choose_text_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000006, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "continue_text_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000009, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_button_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000012, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_player_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000033, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_judger_saty"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000036, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_general_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000039, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_lady_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000042, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "ok_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000045, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "get_thing_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000048, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "lose_thing_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000051, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_text_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000055, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "return_game_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000060, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_game_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000063, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "bag_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000068, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "all_exit_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000073, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "QTE_hint_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000078, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_teach_stay"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000083, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "WUGy8I28Ee6VmgAVXWe8if", 
+            "p_trigger_id": null, 
+            "trigger_id": 258277489, 
+            "trigger_name": "mouse_change_1", 
+            "valid": true
+        }, 
+        "1568313456": {
+            "action": [
+                {
+                    "action_type": "SET_ROLE_CURSOR_STATE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100289, 
+                            "args_list": [
+                                "nm_hover"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100288, 
+                            "args_list": [
+                                3000001
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1568313456000001, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "choose_text_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000006, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "continue_text_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000009, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_button_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000012, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_player_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000033, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_judger_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000036, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_general_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000039, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "list_lady_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000042, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "ok_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 258277489000045, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "get_thing_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000048, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "lose_thing_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000051, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_text_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000054, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "return_game_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000059, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_game_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000064, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "bag_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000069, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "all_exit_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000074, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "QTE_hint_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000079, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "exit_teach_leave"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1568313456000084, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "WUGy8I28Ee6VmgAVXWe8if", 
+            "p_trigger_id": null, 
+            "trigger_id": 1568313456, 
+            "trigger_name": "mouse_change_2", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    258277489, 
+                    "mouse_change_1"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1568313456, 
+                    "mouse_change_2"
+                ]
+            }
+        ], 
+        "is_sub_folder": true, 
+        "key": "Sd3zEZXREe6QPwAVXWe8iY", 
+        "name": "mouse"
+    }
+}

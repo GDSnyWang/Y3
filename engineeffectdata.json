@@ -1,4 +1,55 @@
 {
+    "color_grading": {
+        "color_grading_type": 1
+    }, 
+    "env_time_of_day": {
+        "time_of_day_template": 300003
+    }, 
+    "fog": {
+        "height_fog": false, 
+        "height_fog_color": {
+            "__tuple__": true, 
+            "items": [
+                96, 
+                96, 
+                96, 
+                1
+            ]
+        }, 
+        "height_fog_end": 100.0
+    }, 
+    "post_style": {
+        "post_style_shader_params": {
+            "1": {
+                "DepthScale": 3.0, 
+                "LineColor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.05, 
+                        0.03, 
+                        0.03
+                    ]
+                }, 
+                "PixelIntensity": 2.0
+            }, 
+            "4": {
+                "DepthScale": 2.5, 
+                "LineColor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.05, 
+                        0.05, 
+                        0.05
+                    ]
+                }, 
+                "TotalControl": 0.9
+            }
+        }, 
+        "post_style_type": 0
+    }, 
+    "sky_box": {
+        "sky_box_type": 100002
+    }, 
     "terrain": {
         "terrain_version": 2, 
         "water_materials": [
