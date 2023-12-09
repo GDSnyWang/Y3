@@ -275,5 +275,5 @@
     "ui_anims": [], 
     "uid": "ed02e003-1141-4e15-9117-a72aec6ed43e", 
     "visible": true, 
-    "zorder": 400
+    "zorder": 100
 }

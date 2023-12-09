@@ -228,6 +228,56 @@
             "trigger_name": "get_judger", 
             "valid": true
         }, 
+        "263635122": {
+            "action": [
+                {
+                    "action_type": "SET_CAMERA_DISTANCE_MAX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                30.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1053696060000442, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                16
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 263635122000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "cfQtoY28Ee6LhwAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 263635122, 
+            "trigger_name": "camera", 
+            "valid": true
+        }, 
         "364822600": {
             "action": [
                 {
@@ -1928,6 +1978,13 @@
                 "items": [
                     1388961967, 
                     "voice_test"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    263635122, 
+                    "camera"
                 ]
             }
         ], 

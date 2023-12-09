@@ -598,7 +598,7 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "SET_ROLE_MOUSE_LEFT_CLICK", 
+                    "action_type": "SET_CAMERA_DISTANCE_MAX", 
                     "args_list": [
                         {
                             "arg_type": 100025, 
@@ -608,60 +608,16 @@
                             "sub_type": 1
                         }, 
                         {
-                            "arg_type": 100048, 
+                            "arg_type": 100000, 
                             "args_list": [
-                                false
+                                30.0
                             ], 
                             "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1053696060000235, 
-                    "enable": false
-                }, 
-                {
-                    "action_type": "SET_ROLE_MOUSE_WHEEL", 
-                    "args_list": [
-                        {
-                            "arg_type": 100025, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100048, 
-                            "args_list": [
-                                false
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1053696060000114, 
+                    "element_id": 1053696060000471, 
                     "enable": true
-                }, 
-                {
-                    "action_type": "SET_ROLE_CURSOR_STATE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100025, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100289, 
-                            "args_list": [
-                                "nm_hover"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1053696060000164, 
-                    "enable": false
                 }, 
                 {
                     "action_type": "UPDATE_GLOBAL_WEATHER", 
@@ -729,21 +685,6 @@
                     "bp": false, 
                     "element_id": 1053696060000219, 
                     "enable": true
-                }, 
-                {
-                    "action_type": "ENABLE_FOW_FOR_PLAYER", 
-                    "args_list": [
-                        {
-                            "arg_type": 100001, 
-                            "args_list": [
-                                true
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1053696060000243, 
-                    "enable": false
                 }, 
                 {
                     "action_type": "SET_VARIABLE", 
