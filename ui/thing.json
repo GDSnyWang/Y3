@@ -2,6 +2,16 @@
     "adapt_mode": 2, 
     "children": [
         {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                390.0, 
+                390.0, 
+                720.0, 
+                720.0
+            ], 
             "children": [
                 {
                     "alignment": {

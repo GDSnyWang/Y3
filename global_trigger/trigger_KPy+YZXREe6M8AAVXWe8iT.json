@@ -451,8 +451,317 @@
             "trigger_name": "gate_open", 
             "valid": true
         }, 
+        "754167981": {
+            "action": [
+                {
+                    "action_type": "EXIT_GAME", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1707860136000010, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "GAME_STAGE"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "SHUT_DOWN"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "7a2cfc0f8c4311ee8d8e00155d67bc89"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 632586406000004, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "quit_game_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 754167981000002, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "quit_game_2_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 754167981000005, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "quit_game_3_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 754167981000010, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "KPy+YZXREe6M8AAVXWe8iT", 
+            "p_trigger_id": null, 
+            "trigger_id": 754167981, 
+            "trigger_name": "quit", 
+            "valid": true
+        }, 
         "1138278557": {
             "action": [
+                {
+                    "action_type": "UNIT_RELEASE_COMMAND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100216, 
+                            "args_list": [], 
+                            "sub_type": "UNIT_COMMAND_STOP"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000107, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_ROLE_ALL_GAME_FUNC_ENABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100253, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000073, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "04104968-7978-440e-bc61-bb9b8118f6ce"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "GAME_STAGE"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "END"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1138278557000062, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "PLAY_UI_COMP_ANIM", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100239, 
+                            "args_list": [
+                                4
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1844658289000018, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        true
+                    ]
+                }, 
+                {
+                    "action_type": "RUN_ONCE_TIMER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100181, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "NEW_TIMER", 
+                                        "temp", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "5fefb873-6420-4810-a1bd-02f4411dcf58"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1844658289000008, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "DELETE_TIMER", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100181, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "NEW_TIMER", 
+                                                        "temp", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 2064408639000200, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2064408639000193, 
+                    "enable": true, 
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
+                }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
                     "args_list": [
@@ -480,7 +789,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1138278557000005, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
@@ -509,7 +818,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1138278557000010, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
@@ -538,7 +847,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1138278557000019, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
@@ -567,7 +876,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1138278557000028, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
@@ -596,7 +905,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1138278557000037, 
-                    "enable": true
+                    "enable": false
                 }
             ], 
             "call_enabled": true, 
@@ -627,6 +936,213 @@
         "1155051676": {
             "action": [
                 {
+                    "action_type": "UNIT_RELEASE_COMMAND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100216, 
+                            "args_list": [], 
+                            "sub_type": "UNIT_COMMAND_STOP"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000107, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_ROLE_ALL_GAME_FUNC_ENABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100253, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 513507401000073, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "04104968-7978-440e-bc61-bb9b8118f6ce"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "GAME_STAGE"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "END"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1138278557000062, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "PLAY_UI_COMP_ANIM", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100239, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1844658289000018, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        true
+                    ]
+                }, 
+                {
+                    "action_type": "RUN_ONCE_TIMER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100181, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "NEW_TIMER", 
+                                        "temp", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "71af1239-d209-4be1-b47b-9e8f01db2f5b"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1844658289000008, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "DELETE_TIMER", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100181, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "NEW_TIMER", 
+                                                        "temp", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 2064408639000200, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2064408639000193, 
+                    "enable": true, 
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
+                }, 
+                {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
                     "args_list": [
                         {
@@ -653,7 +1169,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1155051676000017, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
@@ -682,7 +1198,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1155051676000022, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
@@ -711,7 +1227,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1155051676000031, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
@@ -740,7 +1256,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1155051676000040, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "DISPLAY_INFO_TO_PLAYER", 
@@ -769,7 +1285,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1155051676000049, 
-                    "enable": true
+                    "enable": false
                 }
             ], 
             "call_enabled": true, 
@@ -876,6 +1392,13 @@
                 "items": [
                     1138278557, 
                     "game_lose"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    754167981, 
+                    "quit"
                 ]
             }
         ], 

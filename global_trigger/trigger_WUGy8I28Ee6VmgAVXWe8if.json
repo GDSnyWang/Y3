@@ -16,6 +16,13 @@
                     {
                         "__tuple__": true, 
                         "items": [
+                            302112942, 
+                            "game_start"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
                             1032265854, 
                             "choose_self"
                         ]
@@ -106,6 +113,13 @@
                                     1138278557, 
                                     "game_lose"
                                 ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    754167981, 
+                                    "quit"
+                                ]
                             }
                         ], 
                         "key": "KPy+YZXREe6M8AAVXWe8iT", 
@@ -174,7 +188,7 @@
                                 "__tuple__": true, 
                                 "items": [
                                     1707860136, 
-                                    "exit_game"
+                                    "want_exit_game"
                                 ]
                             }, 
                             {
@@ -189,6 +203,20 @@
                                 "items": [
                                     944824492, 
                                     "end_teach"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    1651511472, 
+                                    "real_quit"
+                                ]
+                            }, 
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    745582769, 
+                                    "no_quit"
                                 ]
                             }
                         ], 

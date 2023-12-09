@@ -2,6 +2,16 @@
     "adapt_mode": 2, 
     "children": [
         {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                895.0, 
+                85.0, 
+                195.0, 
+                1625.0
+            ], 
             "children": [
                 {
                     "children": [], 
@@ -122,6 +132,16 @@
             "uid": "1849e86a-a0c0-41d9-91d4-a25775e0dee3"
         }, 
         {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                895.0, 
+                85.0, 
+                75.0, 
+                1745.0
+            ], 
             "children": [
                 {
                     "children": [], 

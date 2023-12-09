@@ -144,6 +144,12 @@
                 "temp_t": 0
             }
         }, 
+        "302112942": {
+            "variable_dict": {
+                "FLOAT": {}
+            }, 
+            "variable_length_dict": {}
+        }, 
         "333193219": {
             "variable_dict": {
                 "BOOLEAN": {
@@ -636,6 +642,38 @@
                 "tips_size": 10
             }
         }, 
+        "1053696060": {
+            "variable_dict": {
+                "FLOAT": {
+                    "row": 0.0, 
+                    "volume": 0.0
+                }
+            }, 
+            "variable_length_dict": {
+                "row": 0, 
+                "volume": 0
+            }
+        }, 
+        "1138278557": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
+        "1155051676": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "1270726670": {
             "variable_dict": {
                 "NEW_TIMER": {
@@ -839,6 +877,12 @@
                 "temp_n": 0, 
                 "temp_t": 0
             }
+        }, 
+        "1555783738": {
+            "variable_dict": {
+                "NEW_TIMER": {}
+            }, 
+            "variable_length_dict": {}
         }, 
         "1559846928": {
             "variable_dict": {
@@ -1124,6 +1168,16 @@
                 "tab_index": 0
             }
         }, 
+        "2064408639": {
+            "variable_dict": {
+                "NEW_TIMER": {
+                    "temp": -1
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "2079805465": {
             "variable_dict": {
                 "INTEGER": {
@@ -1194,6 +1248,7 @@
             }
         }, 
         "SOUND_ENTITY": {
+            "click": 0, 
             "main_bgm": 0
         }, 
         "STRING": {
@@ -1313,6 +1368,13 @@
                 "sound_long_down", 
                 "sound_long_down"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "click", 
+                "click"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -1324,6 +1386,7 @@
         "QTE_RESULT": 0, 
         "STILL_DIALOGUING": 0, 
         "UI_Manager": 0, 
+        "click": 0, 
         "main_bgm": 0, 
         "main_qte": 0, 
         "select_qte": 0, 

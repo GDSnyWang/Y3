@@ -317,6 +317,41 @@
                                                     "bp": false, 
                                                     "element_id": 781447332000003, 
                                                     "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_SOUND_VOLUME", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                1
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100214, 
+                                                            "args_list": [
+                                                                [
+                                                                    "SOUND_ENTITY", 
+                                                                    "click"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                [
+                                                                    "INTEGER", 
+                                                                    "sound"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1053696060000413, 
+                                                    "enable": true
                                                 }
                                             ], 
                                             "sub_type": 1
@@ -627,6 +662,41 @@
                                                     "bp": false, 
                                                     "element_id": 781447332000003, 
                                                     "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_SOUND_VOLUME", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                1
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100214, 
+                                                            "args_list": [
+                                                                [
+                                                                    "SOUND_ENTITY", 
+                                                                    "click"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                [
+                                                                    "INTEGER", 
+                                                                    "sound"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1053696060000413, 
+                                                    "enable": true
                                                 }
                                             ], 
                                             "sub_type": 1
@@ -906,6 +976,41 @@
                                     "enable": true
                                 }, 
                                 {
+                                    "action_type": "SET_SOUND_VOLUME", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100214, 
+                                            "args_list": [
+                                                [
+                                                    "SOUND_ENTITY", 
+                                                    "click"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "sound"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1053696060000413, 
+                                    "enable": true
+                                }, 
+                                {
                                     "action_type": "SET_UI_COMP_TEXT", 
                                     "args_list": [
                                         {
@@ -1162,6 +1267,41 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 1949868195000028, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_SOUND_VOLUME", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100214, 
+                                            "args_list": [
+                                                [
+                                                    "SOUND_ENTITY", 
+                                                    "click"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "sound"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1053696060000413, 
                                     "enable": true
                                 }, 
                                 {

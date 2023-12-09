@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository>
 <Items>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>2c2edebe-9367-4571-b408-66d170ce5007</GUID><Package>ui</Package><Class>Texture2D</Class><Name>134274102</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>5cb2d4e2-bf90-4064-8131-e37ac2ea0145</GUID><Package>ui</Package><Class>Texture2D</Class><Name>134229686</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>7cd8d142-43d9-494c-ad52-10d03052c3d2</GUID><Package>ui</Package><Class>Texture2D</Class><Name>134223233</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>809732e6-22a6-4d0a-be51-732f2c7914dc</GUID><Package>ui</Package><Class>Texture2D</Class><Name>134232041</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>e57d4191-6007-4f37-88f8-94132d4630b3</GUID><Package>ui</Package><Class>Texture2D</Class><Name>134227427</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
 </Items>
 </Repository>

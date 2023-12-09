@@ -148,6 +148,134 @@
                     "enable": true
                 }, 
                 {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100214, 
+                            "args_list": [
+                                [
+                                    "SOUND_ENTITY", 
+                                    "click"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100214, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100084, 
+                                    "args_list": [
+                                        134224493
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "PLAY_SOUND_FOR_PLAYER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1388961967000009, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_SOUND_VOLUME", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100214, 
+                            "args_list": [
+                                [
+                                    "SOUND_ENTITY", 
+                                    "click"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "sound"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100016, 
+                                            "args_list": [
+                                                "*"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                25
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "MATH_OPERATION"
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "/"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        100
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1388961967000006, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "IF_THEN_ELSE", 
                     "args_list": [
                         {
@@ -300,7 +428,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1555783738000119, 
+                                    "element_id": 1555783738000419, 
                                     "enable": true, 
                                     "op_arg": [
                                         null, 
@@ -476,7 +604,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 1555783738000126, 
+                                                    "element_id": 1555783738000426, 
                                                     "enable": true, 
                                                     "op_arg": [
                                                         null, 

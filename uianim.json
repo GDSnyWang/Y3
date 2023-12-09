@@ -185,6 +185,60 @@
         "lp": false, 
         "max_frame": 100
     }, 
+    "3": {
+        "anim_name": "win", 
+        "dt": [
+            {
+                "dt": [
+                    {
+                        "dt": {
+                            "0": {
+                                "val": 0.0
+                            }, 
+                            "60": {
+                                "val": 1.0
+                            }
+                        }, 
+                        "tp": 4
+                    }
+                ], 
+                "enabled": true, 
+                "name": "4c690786-2ddb-4667-aa19-722826a70fb9"
+            }
+        ], 
+        "event_data": {}, 
+        "f_rt": 30, 
+        "group": "71af1239-d209-4be1-b47b-9e8f01db2f5b", 
+        "lp": false, 
+        "max_frame": 100
+    }, 
+    "4": {
+        "anim_name": "lose", 
+        "dt": [
+            {
+                "dt": [
+                    {
+                        "dt": {
+                            "0": {
+                                "val": 0.0
+                            }, 
+                            "60": {
+                                "val": 1.0
+                            }
+                        }, 
+                        "tp": 4
+                    }
+                ], 
+                "enabled": true, 
+                "name": "71d703f4-adac-4c87-8d3d-114e5d4cec4e"
+            }
+        ], 
+        "event_data": {}, 
+        "f_rt": 30, 
+        "group": "5fefb873-6420-4810-a1bd-02f4411dcf58", 
+        "lp": false, 
+        "max_frame": 100
+    }, 
     "8": {
         "anim_name": "main_QTE", 
         "dt": [

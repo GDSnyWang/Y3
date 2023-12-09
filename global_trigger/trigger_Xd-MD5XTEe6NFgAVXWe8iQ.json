@@ -494,6 +494,134 @@
             "trigger_name": "pause", 
             "valid": true
         }, 
+        "745582769": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "685fb8b3-9aa7-44a9-bc41-df5ae3eac653"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 745582769000010, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "04104968-7978-440e-bc61-bb9b8118f6ce"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "GAME_STAGE"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "PAUSE"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 745582769000015, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        "04104968-7978-440e-bc61-bb9b8118f6ce"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "GAME_STAGE"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_STRING_TABLE_VAR_1D"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "QUITING"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "STRING_COMPARE", 
+                    "element_id": 745582769000005, 
+                    "enable": true
+                }
+            ], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "no_quit"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 745582769000002, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "Xd-MD5XTEe6NFgAVXWe8iQ", 
+            "p_trigger_id": null, 
+            "trigger_id": 745582769, 
+            "trigger_name": "no_quit", 
+            "valid": true
+        }, 
         "944824492": {
             "action": [
                 {
@@ -828,7 +956,7 @@
             "trigger_name": "teach", 
             "valid": true
         }, 
-        "1707860136": {
+        "1651511472": {
             "action": [
                 {
                     "action_type": "EXIT_GAME", 
@@ -911,6 +1039,134 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
+                                "QUITING"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "STRING_COMPARE", 
+                    "element_id": 1651511472000015, 
+                    "enable": true
+                }
+            ], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "final_quit_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1651511472000012, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": "Xd-MD5XTEe6NFgAVXWe8iQ", 
+            "p_trigger_id": null, 
+            "trigger_id": 1651511472, 
+            "trigger_name": "real_quit", 
+            "valid": true
+        }, 
+        "1707860136": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "685fb8b3-9aa7-44a9-bc41-df5ae3eac653"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1707860136000023, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "04104968-7978-440e-bc61-bb9b8118f6ce"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "GAME_STAGE"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "QUITING"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 745582769000015, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        "04104968-7978-440e-bc61-bb9b8118f6ce"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "GAME_STAGE"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_STRING_TABLE_VAR_1D"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
                                 "PAUSE"
                             ], 
                             "sub_type": 1
@@ -941,7 +1197,7 @@
             "group_id": "Xd-MD5XTEe6NFgAVXWe8iQ", 
             "p_trigger_id": null, 
             "trigger_id": 1707860136, 
-            "trigger_name": "exit_game", 
+            "trigger_name": "want_exit_game", 
             "valid": true
         }
     }, 
@@ -966,7 +1222,7 @@
                 "__tuple__": true, 
                 "items": [
                     1707860136, 
-                    "exit_game"
+                    "want_exit_game"
                 ]
             }, 
             {
@@ -981,6 +1237,20 @@
                 "items": [
                     944824492, 
                     "end_teach"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1651511472, 
+                    "real_quit"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    745582769, 
+                    "no_quit"
                 ]
             }
         ], 

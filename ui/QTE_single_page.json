@@ -2,6 +2,16 @@
     "adapt_mode": 2, 
     "children": [
         {
+            "adapter_option": [
+                false, 
+                false, 
+                false, 
+                false, 
+                64.5, 
+                64.5, 
+                115.55499999999995, 
+                115.55499999999984
+            ], 
             "children": [
                 {
                     "children": [], 
