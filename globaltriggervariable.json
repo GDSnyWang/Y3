@@ -1041,42 +1041,6 @@
                 "input": 0
             }
         }, 
-        "1813368896": {
-            "variable_dict": {
-                "BOOLEAN": {}, 
-                "FLOAT": {
-                    "a1": 50.0, 
-                    "a2": 400.0, 
-                    "a3": 400.0, 
-                    "blue_location": 0.0, 
-                    "blue_long": 0.0, 
-                    "green_location": 0.0, 
-                    "green_long": 0.0, 
-                    "red_location": 0.0, 
-                    "red_long": 0.0
-                }, 
-                "INTEGER": {}, 
-                "UI_COMP": {
-                    "blue_line": "", 
-                    "green_line": "", 
-                    "red_line": ""
-                }
-            }, 
-            "variable_length_dict": {
-                "a1": 0, 
-                "a2": 0, 
-                "a3": 0, 
-                "blue_line": 0, 
-                "blue_location": 0, 
-                "blue_long": 0, 
-                "green_line": 0, 
-                "green_location": 0, 
-                "green_long": 0, 
-                "red_line": 0, 
-                "red_location": 0, 
-                "red_long": 0
-            }
-        }, 
         "1872433179": {
             "variable_dict": {
                 "ITEM_ENTITY": {
